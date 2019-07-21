@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bitter:700|Noto+Sans+TC:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="flexslider.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+    <script type="text/javascript" src="jquery.flexslider.js"></script>
+    <script type="text/javascript" src="jquery.flexslider-min.js"></script>    
+    <script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+        $('.flexslider').flexslider();
+    });
+    $(window).scroll(function() {
+      // checks if window is scrolled more than 500px, adds/removes solid class
+      if($(window).scrollTop() > 10) { 
+          $('.navbar').css('background-color','#2196f3');
+      } else {
+          $('.navbar').css('background-color','transparent');
+      }
+    });
+
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>IoT center</title>
+</head>
+
+<body>
+    <div>
+        <div class="navbar-container">
+            <nav id="navbar" class="navbar navbar-expand-xl navbar-dark fixed-top" style="transition: .5s">
+                <a class="navbar-brand brandname" href="index.html">
+                    <span>物聯網研究中心</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-items" id="navbarsExample06">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown active">
+                          <a class="nav-link dropdown-toggle" href="research.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+                          <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <a class="dropdown-item" href="research.html">Research</a>
+                            <a class="dropdown-item" href="advisor.html">Advisor</a>
+                          </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="people.html">People</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Publications</a>
+                        </li>                        
+                    </ul>
+                </div>
+            </nav>             
+        </div>
+        <div class="main-container">
+            <div class="photowall"> 
+              <div class="outerbox">
+                <div class="innerbox">
+                  <h1>Advisor</h1>
+                </div>
+              </div>
+              <img src="img/6.jpg" width="100%" height="600px">
+             
+            </div>
+            <!-- <div>
+                <div class="flexslider" style="width:1000px; margin-left:100px;">
+                    <ul class="slides">
+                        <li><img src="img/4.jpg" alt="" width="350" height="250"></li>
+                        <li><img src="img/5.jpg" alt="" width="350" height="250"></li>
+                        <li><img src="img/6.jpg" alt="" width="350" height="250"></li>
+                    </ul>
+                </div>
+            </div> -->
+            <div class='index-container'>  
+              <div class="advisor-container">
+                <div class="col-lg-4">
+                  <img src="img/rick.jpg" style="width: 300px;">
+                </div>
+                <div class="col-lg-8 prof-name">
+                  <p>廖婉君   Wan-jiun Liao</p>
+                  <ul>
+                    <li>Distinguished Professor, Department of Electrical Engineering,NTU</li>
+                    <li>Professor, Graduate Institute of Communication Engineering, NTU</li>
+                    <li>Professor, Graduate Institute of Networking and Multimedia, NTU</li>
+                    <li>Adjunct Research Fellow of Research Center for Information Techonology Innovation, Amercian Sinica, Taiwan</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="bio-container">
+                <div class="col-lg-9">
+                  <h2>Bio</h2>
+                  <p>Wanjiun Liao received the BS and MS degrees in Computer Science from National Chiao Tung University, Taiwan, in 1990 and 1992, respectively, and the Ph.D. degree in Electrical Engineering from the University of Southern California, Los Angeles, California, USA, in 1997. She is a Distinguished Professor of Electrical Engineering, National Taiwan University (NTU), Taipei, Taiwan. She is an Adjunct Research Fellow of Research Center for Information Techonology Innovation, Amercian Sinica, Taiwan. She is the General Director of Engineering Division in the Ministry of Science and Technology in Taiwan. Her research interests are focused on the design and analysis of wireless and multimedia networking, green communications, on-line social network analysis, and cloud networking.</p>
+                  <p>Prof. Liao was an Associate Editor of IEEE Transactions on Wireless Communications and IEEE Transactions on Multimedia, and served on the organizing committees of many international conferences. She was an IEEE Communications Society (ComSoc) Distinguished Lecturer, an IEEE Fellow Committee member, and the IEEE ComSoc Asia Pacific Board (APB) Director. She is on IEEE Award Board Award Review Committee and IEEE Transactions on Mobile Computing Steering Committe.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="footer-container">
+          <div class="footer">
+            國立臺灣大學National Taiwan University 10617 臺北市羅斯福路四段一號 
+          </div>
+          <div class="footer">
+            Copyright 2019 IRL All Rights Reserved
+          </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1b817b97c5.js"></script>
+    <div class="back-to-top">
+      <a href="#"><img src="img/up-chevron-button.png"></a>
+    </div>
+</body>
+
+</html>
