@@ -160,4 +160,10 @@ a:hover{
 .bio-container{
 	display: flex;
 	justify-content: center;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+}
+.small-container{
+	margin-bottom: 30px;
 }
