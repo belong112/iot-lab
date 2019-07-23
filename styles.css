@@ -63,7 +63,7 @@ a:hover{
 .index-container{
 	background-color: #f3f3f3;
 	margin: 0px 50px 50px 50px;
-	padding: 70px 50px 100px 50px;
+	padding: 50px 50px 100px 50px;
 }
 
 .three-icons{
@@ -142,12 +142,11 @@ a:hover{
 }
 .advisor-container{
 	display: flex;
+	justify-content: center;
 	color: #555;
 	margin: 100px 0px 100px 0px
 }
-.prof-name{
-	
-}
+
 .prof-name p{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 2rem;
@@ -166,4 +165,26 @@ a:hover{
 }
 .small-container{
 	margin-bottom: 30px;
+}
+
+.event-container{
+	text-align: justify;
+}
+
+.tst{
+	display: flex;
+	justify-content: center;
+}
+.btn{
+	color: #000;
+	text-decoration: none;
+}
+.btn:hover{
+	text-decoration: none;
+	color: #2196f3;
+}
+.btn:focus{
+	border-color: transparent;
+	text-decoration: none;
+	box-shadow: none;
 }

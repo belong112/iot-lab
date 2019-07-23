@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Bitter:700|Noto+Sans+TC:500&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="flexslider.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript">
     (function() { var css = document.createElement('link');
         css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
@@ -18,39 +19,8 @@
     <script type="text/javascript" src="jquery.flexslider.js"></script>
     <script type="text/javascript" src="jquery.flexslider-min.js"></script>
     <script type="text/javascript" charset="utf-8">
-    $(window).scroll(function() {
-        // checks if window is scrolled more than 500px, adds/removes solid class
-        if ($(window).scrollTop() > 10) {
-            $('.navbar').css('background-color', '#2196f3');
-        } else {
-            $('.navbar').css('background-color', 'transparent');
-        }
-    });
     $(window).load(function() {
-        var $container = $('.portfolioContainer');
-        $container.isotope({
-            filter: '*',
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
-            }
-        });
-        $('.portfolioFilter a').click(function() {
-            $('.portfolioFilter .current').removeClass('current');
-            $(this).addClass('current');
-
-            var selector = $(this).attr('data-filter');
-            $container.isotope({
-                filter: selector,
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
-            return false;
-        });
+        $('.flexslider').flexslider();
     });
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -92,54 +62,62 @@
                         </li>                        
                     </ul>
                 </div>
-            </nav> 
+            </nav>
         </div>
         <div class="main-container">
             <div class="photowall">
                 <div class="outerbox">
                     <div class="innerbox">
-                        <h1>Peolple</h1>
-                        <h2>saaa sss sss</h2>
+                        <h1>Projects</h1>
+                        <h2>todo list</h2>
                     </div>
                 </div>
-                <img src="img/4.jpg" width="100%" height="600px">
+                <img src="img/5.jpg" width="100%" height="600px">
             </div>
-            <!-- <div>
-                <div class="flexslider" style="width:1000px; margin-left:100px;">
-                    <ul class="slides">
-                        <li><img src="img/4.jpg" alt="" width="350" height="250"></li>
-                        <li><img src="img/5.jpg" alt="" width="350" height="250"></li>
-                        <li><img src="img/6.jpg" alt="" width="350" height="250"></li>
-                    </ul>
-                </div>
-            </div> -->
-            <div id='test' class='index-container'>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="portfolioFilter clearfix">
-                                <a href="#" data-filter="*" class="current">All Categories</a>
-                                <a href="#" data-filter=".webTemplates">Web Templates</a>
-                                <a href="#" data-filter=".logos">Logos</a>
-                                <a href="#" data-filter=".drawings">Drawings</a>
-                                <a href="#" data-filter=".ui">UI Elements</a>
+            <div class='index-container'>
+                <div class="big-container tst row">
+                    <div class="event-container col-lg-9">
+                        <h2>On Going Research</h2>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">  +【計畫】用於健康照護之前瞻可攜式物聯網裝置（總計畫主持人：李嗣涔教授）　吳瑞北教授               
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="portfolioContainer">
-                            <div class="webTemplates objects">
-                                <img src="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" alt="image">
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h2 class="mb-0">
+                                        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">  +【課程】物聯網導論 106-2　授課老師：張進福｜吳瑞北｜賴怡吉              
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
                             </div>
-                            <div class="drawings places">
-                                <img src="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" alt="image">
-                            </div>
-                            <div class="logos drawings">
-                                <img src="https://mir-s3-cdn-cf.behance.net/projects/202/be4b9728308865.55b92edb950fc.jpg" alt="image">
-                            </div>
-                            <div class="webTemplates">
-                                <img src="https://mir-s3-cdn-cf.behance.net/projects/202/12963199.548365055868a.png" alt="image">
-                            </div>
-                            <div class="logos">
-                                <img src="https://mir-s3-cdn-cf.behance.net/projects/202/181a7b35469661.Y3JvcCw3NjUsNTk5LDY3LDA.png" alt="image">
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h2 class="mb-0">
+                                        <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                           + Collapsible Group Item #3
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
