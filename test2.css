@@ -28,8 +28,13 @@ a:focus {
 .portfolioContainer{
   width: 100%;
 }
-img {
+.container img{
+  transition: .3s;
   max-width:100%;
+}
+.container img:hover{
+  transition: .3s;
+  transform: scale(1.05);
 }
 
 .isotope-item {

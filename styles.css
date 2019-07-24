@@ -100,9 +100,6 @@ a:hover{
 .big-container{
 	margin-bottom: 50px;
 }
-.triple-container{
-	margin-bottom: 50px;
-}
 .container{
 	margin-bottom: 20px;
 	margin-top: 10px;
@@ -113,7 +110,6 @@ a:hover{
 .img-rounded{
 	width: 100%;
 }
-
 .footer-container{
 	padding-top: 50px;
 	padding-bottom: 50px;
