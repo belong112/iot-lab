@@ -6,58 +6,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Bitter:700|Noto+Sans+TC:500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="flexslider.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script type="text/javascript">
-    (function() { var css = document.createElement('link');
-        css.href = 'https://use.fontawesome.com/releases/v5.1.0/css/all.css';
-        css.rel = 'stylesheet';
-        css.type = 'text/css';
-        document.getElementsByTagName('head')[0].appendChild(css); })();
-    </script>
-    <script type="text/javascript" src="jquery.flexslider.js"></script>
-    <script type="text/javascript" src="jquery.flexslider-min.js"></script>
-    <script type="text/javascript" charset="utf-8">
-    $(window).scroll(function() {
-        // checks if window is scrolled more than 500px, adds/removes solid class
-        if ($(window).scrollTop() > 10) {
-            $('.navbar').css('background-color', '#2196f3');
-        } else {
-            $('.navbar').css('background-color', 'transparent');
-        }
-    });
-    $(window).load(function() {
-        var $container = $('.portfolioContainer');
-        $container.isotope({
-            filter: '*',
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false
-            }
-        });
-        $('.portfolioFilter a').click(function() {
-            $('.portfolioFilter .current').removeClass('current');
-            $(this).addClass('current');
-
-            var selector = $(this).attr('data-filter');
-            $container.isotope({
-                filter: selector,
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
-            return false;
-        });
-    });
-    </script>
+    <link rel="stylesheet" type="text/css" href="test2.css">
+    <script type="text/javascript" src="main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <title>IoT center</title>
 </head>
-
 <body>
     <div>
         <div class="navbar-container">
@@ -71,7 +26,7 @@
                 <div class="collapse navbar-collapse navbar-items" id="navbarsExample06">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item dropdown active">
                           <a class="nav-link dropdown-toggle" href="research.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
@@ -85,7 +40,7 @@
                           <a class="nav-link" href="news.html">News</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="people.html">People</a>
+                            <a class="nav-link" href="people.html">Members</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="project.html">Projects</a>
@@ -98,48 +53,45 @@
             <div class="photowall">
                 <div class="outerbox">
                     <div class="innerbox">
-                        <h1>Peolple</h1>
+                        <h1>Members</h1>
                         <h2>saaa sss sss</h2>
                     </div>
                 </div>
                 <img src="img/4.jpg" width="100%" height="600px">
             </div>
-            <!-- <div>
-                <div class="flexslider" style="width:1000px; margin-left:100px;">
-                    <ul class="slides">
-                        <li><img src="img/4.jpg" alt="" width="350" height="250"></li>
-                        <li><img src="img/5.jpg" alt="" width="350" height="250"></li>
-                        <li><img src="img/6.jpg" alt="" width="350" height="250"></li>
-                    </ul>
-                </div>
-            </div> -->
             <div id='test' class='index-container'>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="portfolioFilter clearfix">
-                                <a href="#" data-filter="*" class="current">All Categories</a>
-                                <a href="#" data-filter=".webTemplates">Web Templates</a>
-                                <a href="#" data-filter=".logos">Logos</a>
-                                <a href="#" data-filter=".drawings">Drawings</a>
-                                <a href="#" data-filter=".ui">UI Elements</a>
+                                <a href="#" data-filter="*" class="current">全部成員</a>
+                                <a href="#" data-filter=".radiowave">無線電波</a>
+                                <a href="#" data-filter=".communicate">物聯網通信系統</a>
+                                <a href="#" data-filter=".safe">資安</a>
+                                <a href="#" data-filter=".iothard">物聯網硬體</a>
+                                <a href="#" data-filter=".iotsoft">物聯網軟體</a>
                             </div>
                         </div>
-                        <div class="portfolioContainer">
-                            <div class="webTemplates objects">
+                        <div class="portfolioContainer row">
+                            <div class="iotsoft col-lg-3">
                                 <img src="https://mir-s3-cdn-cf.behance.net/projects/202/cc99b535336825.Y3JvcCwxMzk1LDEwOTEsMCw3ODA.png" alt="image">
+                                <div>徐依玲</div>
                             </div>
-                            <div class="drawings places">
+                            <div class="radiowave col-lg-3">
                                 <img src="https://mir-s3-cdn-cf.behance.net/projects/202/d4cfa934191261.Y3JvcCw2MTMsNDc5LDQsMjA0.jpg" alt="image">
+                                <div>蔡依玲</div>
                             </div>
-                            <div class="logos drawings">
+                            <div class="iothard col-lg-3">
                                 <img src="https://mir-s3-cdn-cf.behance.net/projects/202/be4b9728308865.55b92edb950fc.jpg" alt="image">
+                                <div>賴怡鈴</div>
                             </div>
-                            <div class="webTemplates">
+                            <div class="safe col-lg-3">
                                 <img src="https://mir-s3-cdn-cf.behance.net/projects/202/12963199.548365055868a.png" alt="image">
+                                <div>芳宜霖</div>
                             </div>
-                            <div class="logos">
+                            <div class="communicate col-lg-3">
                                 <img src="https://mir-s3-cdn-cf.behance.net/projects/202/181a7b35469661.Y3JvcCw3NjUsNTk5LDY3LDA.png" alt="image">
+                                <div>黃銀鈴</div>
                             </div>
                         </div>
                     </div>
@@ -154,13 +106,45 @@
                 </div>
             </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://isotope.metafizzy.co/v1/jquery.isotope.min.js"></script>
+
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>        
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
         <script src="https://kit.fontawesome.com/1b817b97c5.js"></script>
         <div class="back-to-top">
             <a href="#"><img src="img/up-chevron-button.png"></a>
         </div>
+        <script type="text/javascript">
+  $(window).load(function(){
+    var $container = $('.portfolioContainer');
+    $container.isotope({
+        filter: '*',
+        animationOptions: {
+            duration: 750,
+            easing: 'linear',
+            queue: false
+        }
+    });
+ 
+    $('.portfolioFilter a').click(function(){
+        $('.portfolioFilter .current').removeClass('current');
+        $(this).addClass('current');
+ 
+        var selector = $(this).attr('data-filter');
+        $container.isotope({
+            filter: selector,
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false
+            }
+         });
+         return false;
+    }); 
+});
+</script>
 </body>
-
 </html>

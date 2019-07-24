@@ -26,11 +26,9 @@ a:focus {
   color: #f9f9f9;
 }
 .portfolioContainer{
-  border: 1px solid #eee;
-  border-radius: 3px;
+  width: 100%;
 }
 img {
-  margin: 5px;
   max-width:100%;
 }
 
