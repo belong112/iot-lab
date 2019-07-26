@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/iot-lab/static/css/main.0a610e99.chunk.css",
+    "main.js": "/iot-lab/static/js/main.41f18a9e.chunk.js",
+    "main.js.map": "/iot-lab/static/js/main.41f18a9e.chunk.js.map",
+    "runtime~main.js": "/iot-lab/static/js/runtime~main.70ebe721.js",
+    "runtime~main.js.map": "/iot-lab/static/js/runtime~main.70ebe721.js.map",
+    "static/js/2.2b1799d0.chunk.js": "/iot-lab/static/js/2.2b1799d0.chunk.js",
+    "static/js/2.2b1799d0.chunk.js.map": "/iot-lab/static/js/2.2b1799d0.chunk.js.map",
+    "index.html": "/iot-lab/index.html",
+    "precache-manifest.1fda177056b25105a50c09c85d00b4ee.js": "/iot-lab/precache-manifest.1fda177056b25105a50c09c85d00b4ee.js",
+    "service-worker.js": "/iot-lab/service-worker.js",
+    "static/css/main.0a610e99.chunk.css.map": "/iot-lab/static/css/main.0a610e99.chunk.css.map",
+    "static/media/4.jpg": "/iot-lab/static/media/4.8d530f57.jpg",
+    "static/media/6.jpg": "/iot-lab/static/media/6.9910c84c.jpg",
+    "static/media/8.jpg": "/iot-lab/static/media/8.7981989d.jpg",
+    "static/media/blockchain.png": "/iot-lab/static/media/blockchain.c0d577c0.png",
+    "static/media/horse.jpg": "/iot-lab/static/media/horse.a66b7dd5.jpg"
+  }
+}
