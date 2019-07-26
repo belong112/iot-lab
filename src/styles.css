@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:700|Noto+Sans+TC&display=swap');
+body{
+	background: #f3f3f3;  /* fallback for old browsers */
+}
 a { 
 	color: inherit; 
 	text-decoration: none;
@@ -5,14 +9,29 @@ a {
 a:hover{
 	text-decoration: none;
 }
+.first-container{
+	padding: 40px 70px 40px 70px;
+	background: #1c92d2;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #444;
+	font-family: 'bitter';
+}
+
+.navbar{
+	background-color: #2196f3;
+	padding-left: 70px;
+}
 
 .navbar-items{
-	float: right
+	float: right;
 	color: #fff;
 }
 .nav-item{
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 1.2rem;
 	transition: .3s;
-	border: 1.5px solid transparent
+	border: 1.5px solid transparent;
 }
 .nav-item:hover{
 	/*background-color: #A5D7FF90;*/
@@ -98,11 +117,15 @@ a:hover{
 	font-weight: 700;
 }
 .big-container{
+	text-align: justify;
 	margin-bottom: 50px;
 }
 .container{
 	margin-bottom: 20px;
 	margin-top: 10px;
+}
+.container p{
+	text-align: justify;
 }
 .news li{
 	text-align: left;
