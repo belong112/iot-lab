@@ -2,16 +2,22 @@
   "name": "iot-center",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://belong112.github.io/iot-lab",
   "dependencies": {
+    "flexslider": "^2.7.2",
+    "gh-pages": "^2.0.1",
     "isotope-layout": "^3.0.6",
     "jquery": "^3.4.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-slideshow-image": "^1.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -1,0 +1,23 @@
+.slide-container {
+  width: 70%;
+  margin: auto; }
+
+h3 {
+  text-align: center; }
+
+.each-slide > div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-size: cover;
+  height: 450px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  width: 100%;
+  background: #555555cc;
+  color: white;
+  text-align: center;
+}

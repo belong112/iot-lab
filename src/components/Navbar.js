@@ -22,7 +22,7 @@ class Navbar extends Component {
                           <a class="nav-link dropdown-toggle" href="/research" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">關於我們</a>
                           <div class="dropdown-menu">
                             <a class="dropdown-item" href="/research">研究計畫</a>
-                            <a class="dropdown-item" href="advisor.html">指導教授</a>
+                            <a class="dropdown-item" href="/advisor">指導教授</a>
                           </div>
                         </li>
                         <li class="nav-item active"> 

@@ -7,6 +7,7 @@ import Project from "./Project.js"
 import Member from "./Member.js"
 import Research from "./Research.js"
 import News from "./News.js"
+import Advisor from "./Advisor.js"
 
 import { Switch, Route, Redirect } from "react-router-dom";
 
@@ -16,6 +17,7 @@ class Main extends Component {
       <div>
         <Navbar/>
         <Switch>
+          <Route path="/advisor" component={Advisor} />
           <Route path="/news" component={News} />
           <Route path="/project" component={Project} />
           <Route path="/member" component={Member} />

@@ -17,7 +17,7 @@ class Member extends Component {
       <div class="main-container">
         <div id='test' class='index-container'>
             <div>
-              <h1>研究室成員</h1>
+              <h1>實驗室成員</h1>
               <hr/>
             </div>
             <div class="tst row">
