@@ -26,13 +26,13 @@ class Research extends Component {
               </div>
               <div className="big-container col-lg-9">
                 <div className="small-container">
-                  <h1 className="opensans">實驗室目標</h1>
+                  <h1 className="opensans h1tag">實驗室目標</h1>
                   <p>to bring a better life to the citizens</p>
                   <p>The Internet Research Laboratory (IRL), led by Professor Wanjiun Liao of the Department of Electrical Engineering in the National Taiwan University, is engaged in cutting-edge network protocol design. Research in the IRL focuses on provision of solutions for problems encountered in today's Internet as well as Next Generation Internet with more potential applications. Our research activities cover the whole internet, including Broadband Internet, Wireless Internet and Adhoc Technologies, etc.</p>
                 </div>
-                <h2 className="opensans">目前計畫</h2>
+                <h1 className="opensans h1tag">目前計畫</h1>
                 <div className="three-icons row">
-                  <div className="one-icon col-lg-3 col-sm-6">
+                  <div className="one-icon col-lg-4 col-md-12">
                     <div className="backgroundcircle">
                       <img src={ggggg}/>                      
                     </div>
@@ -41,7 +41,7 @@ class Research extends Component {
                       <p>Edge computing and learning for computational offloading</p>
                     </div>            
                   </div>
-                  <div className="one-icon col-lg-3 col-sm-6">
+                  <div className="one-icon col-lg-4 col-md-12">
                     <div className="backgroundcircle">
                       <img src={vr}/>                      
                     </div> 
@@ -50,7 +50,7 @@ class Research extends Component {
                       <p>Wireless, lightweight, and interactivity.</p>
                     </div> 
                   </div>
-                  <div className="one-icon col-lg-3 col-sm-6">
+                  <div className="one-icon col-lg-4 col-md-6">
                     <div className="backgroundcircle">
                       <img src={bc}/>                      
                     </div>

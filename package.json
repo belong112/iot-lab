@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://belong112.github.io/iot-lab",
   "dependencies": {
+    "@material-ui/core": "^4.3.0",
     "flexslider": "^2.7.2",
     "gh-pages": "^2.0.1",
     "isotope-layout": "^3.0.6",

@@ -21,9 +21,9 @@ class Advisor extends Component {
                 <h1>指導教授</h1>
                 <hr/>
               </div>  
-              <div class="advisor-container">
+              <div class="advisor-container row">
                   <div class="col-lg-3">
-                    <img src={photo} style={{width: "300px"}} />
+                    <img src={photo} style={{width: "100%"}} />
                   </div>
                   <div class="col-lg-6 prof-name">
                     <p>廖婉君   Wan-jiun Liao</p>
@@ -45,9 +45,9 @@ class Advisor extends Component {
                   <p>&emsp;Professor Wanjiun Liao's research interests focus mainly on the design and analysis of network protocols to support multimedia applications over wireless networks. She was an Associate Editor for IEEE Transactions on Multimedia and IEEE Transactions on Wireless Communications. On-going research includes</p>
                   <ol>                
                     <li>無線網路: 5G/B5G networks, 雲端網路暨邊緣運算, AI-based resource management (deep reinforcement learning)</li>
-                    <li>Green wireless and multimedia networking</li>
-                    <li>Cloud networking and software-defined networks</li>
-                    <li>On-line social networks big data analytics</li>
+                    <li>多媒體網路: mobile AR/VR streaming </li>
+                    <li>區塊鏈 (安全共識機制、隱私權保護、跨鍊技術) 及數據分析</li>
+                    <li>IoT技術: Industrial IoT, IoT for utility networks</li>
                   </ol>
                 </div>
               </div>              

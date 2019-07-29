@@ -10,12 +10,25 @@ a:hover{
 	text-decoration: none;
 }
 .first-container{
+	background-image: url(./img/home.png);
 	padding: 40px 70px 40px 70px;
+	/*
 	background: #1c92d2;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: #444;
+	background-size:100% 100%;
 	font-family: 'bitter';
+}
+.first-container img{
+	float: left;
+}
+.first-container h4{
+	line-height: inherit;
+	margin-left: 60px;
+}
+.h1tag{
+	padding: 10px;
 }
 
 .navbar{
@@ -28,19 +41,18 @@ a:hover{
 	color: #fff;
 }
 .nav-item{
-	font-family: 'Noto Sans TC', sans-serif;
+	font-family: 'Microsoft YaHei', sans-serif;
 	font-size: 1.2rem;
 	transition: .3s;
 	border: 1.5px solid transparent;
 }
 .nav-item:hover{
-	/*background-color: #A5D7FF90;*/
 	transition: .3s;
 	border: 1.5px solid #FFF;
 }
 .brandname{
 	font-size: 30px;
-	font-family: 'Noto Sans TC', sans-serif;
+	font-family: 'Microsoft YaHei', sans-serif;
 }
 
 .main-container{
@@ -58,8 +70,7 @@ a:hover{
 	height: 600px;
 	background-color: #FFFFFF60;
 }
-.innerbox{
-	
+.innerbox{	
 	margin: 200px 150px 50px 150px;
 	background-color: #FFFFFFAA;
 	padding: 30px 0px 30px 0px;
@@ -81,8 +92,8 @@ a:hover{
 
 .index-container{
 	background-color: #f3f3f3;
-	margin: 0px 50px 50px 50px;
-	padding: 50px 50px 50px 50px;
+	margin: 0px 5% 5% 5%;
+	padding: 5% 5% 5% 5%;
 }
 
 .three-icons{
@@ -135,8 +146,7 @@ a:hover{
 	width: 100%;
 }
 .footer-container{
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding: 3% 3% 3% 3%;
 	align-items: center;
 	background-color: #555;
 	text-align: center;
@@ -209,5 +219,5 @@ a:hover{
 	box-shadow: none;
 }
 .opensans{
-	font-family: 'Noto Sans TC', sans-serif;
+	font-family: 'Microsoft YaHei';
 }

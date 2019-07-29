@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import horse from "../img/horse.jpg";
+import logo from "../img/ntu.png";
 
 class Navbar extends Component {
   render() {
@@ -7,6 +8,7 @@ class Navbar extends Component {
     	<header>
         <div className="first-container"> 
             <h1>Internet Research Lab</h1> 
+            <a target="_blank" href="https://www.ntu.edu.tw/" ><img src={logo} width="50px" className="logo"/></a>
             <h4 style={{fontFamily:"Arial"}}>National Taiwan University</h4>          
         </div>
         <div className="navbar-container">
