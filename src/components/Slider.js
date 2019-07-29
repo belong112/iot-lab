@@ -28,18 +28,18 @@ class Sliders extends Component {
       <Slide {...properties}>
         <div className="each-slide">
           <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-            <span>Slide 1</span>
+            <span>賀! 我大中華民國奧運勇奪三金二銀</span>
           
           </div>
         </div>
         <div className="each-slide">
           <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-            <span>Slide 2</span>
+            <span>慟! 我大中華民國香港特別淪陷區元朗事件</span>
           </div>
         </div>
         <div className="each-slide">
           <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-            <span>Slide 3</span>
+            <span>賀! 我大中華民國中國特別淪陷區重返自由</span>
           </div>
         </div>
       </Slide>

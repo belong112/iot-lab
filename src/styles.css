@@ -82,7 +82,7 @@ a:hover{
 .index-container{
 	background-color: #f3f3f3;
 	margin: 0px 50px 50px 50px;
-	padding: 50px 50px 100px 50px;
+	padding: 50px 50px 50px 50px;
 }
 
 .three-icons{
@@ -121,6 +121,7 @@ a:hover{
 	margin-bottom: 50px;
 }
 .container{
+	text-align: center;
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
@@ -206,4 +207,7 @@ a:hover{
 	border-color: transparent;
 	text-decoration: none;
 	box-shadow: none;
+}
+.opensans{
+	font-family: 'Noto Sans TC', sans-serif;
 }

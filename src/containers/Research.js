@@ -19,16 +19,18 @@ class Research extends Component {
   render() {
     return (
       <div className="main-container">           
-            <div className='index-container'>
-              <div>
+            <div className='index-container row tst'>
+              <div className="col-lg-9">
                 <h1>研究計畫</h1>
                 <hr/>
               </div>
-              <div className="big-container">
-                <h1>我們的目標</h1>
-                <p>to bring a better life to the citizens</p>
-                <p>The Internet Research Laboratory (IRL), led by Professor Wanjiun Liao of the Department of Electrical Engineering in the National Taiwan University, is engaged in cutting-edge network protocol design. Research in the IRL focuses on provision of solutions for problems encountered in today's Internet as well as Next Generation Internet with more potential applications. Our research activities cover the whole internet, including Broadband Internet, Wireless Internet and Adhoc Technologies, etc.</p>
-                <h2>On Going Works</h2>
+              <div className="big-container col-lg-9">
+                <div className="small-container">
+                  <h1 className="opensans">實驗室目標</h1>
+                  <p>to bring a better life to the citizens</p>
+                  <p>The Internet Research Laboratory (IRL), led by Professor Wanjiun Liao of the Department of Electrical Engineering in the National Taiwan University, is engaged in cutting-edge network protocol design. Research in the IRL focuses on provision of solutions for problems encountered in today's Internet as well as Next Generation Internet with more potential applications. Our research activities cover the whole internet, including Broadband Internet, Wireless Internet and Adhoc Technologies, etc.</p>
+                </div>
+                <h2 className="opensans">目前計畫</h2>
                 <div className="three-icons row">
                   <div className="one-icon col-lg-3 col-sm-6">
                     <div className="backgroundcircle">
