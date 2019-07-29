@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6128b1c73d4eefb6f1353f383e322c22",
+    "revision": "32be3333081395dbdd295e9c98a3ed2d",
     "url": "/iot-lab/index.html"
   },
   {
-    "revision": "6ed225e3657b750d6731",
-    "url": "/iot-lab/static/css/2.ed47748a.chunk.css"
+    "revision": "08cbb8f115823ad0ecf6",
+    "url": "/iot-lab/static/css/2.47fb9b64.chunk.css"
   },
   {
-    "revision": "fbec293e57c27866e562",
+    "revision": "c728f2b1962b161c1276",
     "url": "/iot-lab/static/css/main.0c4fd60d.chunk.css"
   },
   {
-    "revision": "6ed225e3657b750d6731",
-    "url": "/iot-lab/static/js/2.3312fde5.chunk.js"
+    "revision": "08cbb8f115823ad0ecf6",
+    "url": "/iot-lab/static/js/2.cca13198.chunk.js"
   },
   {
-    "revision": "fbec293e57c27866e562",
-    "url": "/iot-lab/static/js/main.8146e120.chunk.js"
+    "revision": "c728f2b1962b161c1276",
+    "url": "/iot-lab/static/js/main.66b9ccea.chunk.js"
   },
   {
     "revision": "cfd9af4330f965d3dd19",
