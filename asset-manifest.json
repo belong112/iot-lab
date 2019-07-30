@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/iot-lab/static/css/main.0c4fd60d.chunk.css",
-    "main.js": "/iot-lab/static/js/main.66b9ccea.chunk.js",
-    "main.js.map": "/iot-lab/static/js/main.66b9ccea.chunk.js.map",
+    "main.js": "/iot-lab/static/js/main.b6d29541.chunk.js",
+    "main.js.map": "/iot-lab/static/js/main.b6d29541.chunk.js.map",
     "runtime~main.js": "/iot-lab/static/js/runtime~main.70ebe721.js",
     "runtime~main.js.map": "/iot-lab/static/js/runtime~main.70ebe721.js.map",
     "static/css/2.47fb9b64.chunk.css": "/iot-lab/static/css/2.47fb9b64.chunk.css",
     "static/js/2.cca13198.chunk.js": "/iot-lab/static/js/2.cca13198.chunk.js",
     "static/js/2.cca13198.chunk.js.map": "/iot-lab/static/js/2.cca13198.chunk.js.map",
     "index.html": "/iot-lab/index.html",
-    "precache-manifest.d5ab0fb8a74a7fcac11ff211cd311239.js": "/iot-lab/precache-manifest.d5ab0fb8a74a7fcac11ff211cd311239.js",
+    "precache-manifest.213c6bc53977ab255dd7f5fe35b867e7.js": "/iot-lab/precache-manifest.213c6bc53977ab255dd7f5fe35b867e7.js",
     "service-worker.js": "/iot-lab/service-worker.js",
     "static/css/2.47fb9b64.chunk.css.map": "/iot-lab/static/css/2.47fb9b64.chunk.css.map",
     "static/css/main.0c4fd60d.chunk.css.map": "/iot-lab/static/css/main.0c4fd60d.chunk.css.map",
