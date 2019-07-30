@@ -17,13 +17,13 @@ class Main extends Component {
       <div>
         <Navbar/>
         <Switch>
-          <Route path="/advisor" component={Advisor} />
-          <Route path="/news" component={News} />
-          <Route path="/project" component={Project} />
-          <Route path="/member" component={Member} />
-          <Route path="/research" component={Research} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/" component={Home} />
+          <Route exact path="/advisor" component={Advisor} />
+          <Route exact path="/news" component={News} />
+          <Route exact path="/project" component={Project} />
+          <Route exact path="/member" component={Member} />
+          <Route exact path="/research" component={Research} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/" component={Home} />
           <Redirect from="/home" to="/" />
         </Switch>
         <Footer/>

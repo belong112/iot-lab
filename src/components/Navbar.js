@@ -20,26 +20,26 @@ class Navbar extends Component {
                 <div className="collapse navbar-collapse navbar-items" id="navbarsExample06">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active">
-                            <Link className="nav-link" to="./">首頁</Link>
+                            <Link className="nav-link" to="/">首頁</Link>
                         </li>
                         <li className="nav-item dropdown active">
-                          <a className="nav-link dropdown-toggle" href="./research" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">關於我們</a>
+                          <a className="nav-link dropdown-toggle" href="/research" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">關於我們</a>
                           <div className="dropdown-menu">
-                            <a className="dropdown-item" href="./research">研究計畫</a>
-                            <a className="dropdown-item" href="./advisor">指導教授</a>
+                            <a className="dropdown-item" href="/research">研究計畫</a>
+                            <a className="dropdown-item" href="/advisor">指導教授</a>
                           </div>
                         </li>
                         <li className="nav-item active"> 
-                          <Link className="nav-link" href="./news">最新消息</Link>
+                          <Link className="nav-link" href="/news">最新消息</Link>
                         </li>
                         <li className="nav-item active">
-                            <a className="nav-link" href="./member">實驗室成員</a>
+                            <a className="nav-link" href="/member">實驗室成員</a>
                         </li>
                         <li className="nav-item active">
-                            <a className="nav-link" href="./project">課程</a>
+                            <a className="nav-link" href="/project">課程</a>
                         </li>
                         <li className="nav-item active">
-                            <a className="nav-link" href="./contact">聯絡我們</a>
+                            <a className="nav-link" href="/contact">聯絡我們</a>
                         </li>                         
                     </ul>
                 </div>
