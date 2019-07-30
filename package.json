@@ -2,7 +2,7 @@
   "name": "iot-center",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://belong112.github.io/iot-lab",
   "dependencies": {
     "@material-ui/core": "^4.3.0",
     "flexslider": "^2.7.2",

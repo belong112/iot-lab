@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import horse from "../img/horse.jpg";
-import logo from "../img/ntu.png"
 import {Link} from "react-router-dom";
 
 class Navbar extends Component {
@@ -9,7 +7,7 @@ class Navbar extends Component {
     	<header>
         <div className="first-container"> 
             <h1>Internet Research Lab</h1> 
-            <a target="_blank" href="https://www.ntu.edu.tw/" ><img src={logo} width="50px" className="logo"/></a>
+            <a target="_blank" href="https://www.ntu.edu.tw/" ><img src={require('../img/ntu.png')} width="50px" className="logo"/></a>
             <h4 style={{fontFamily:"Arial"}}>National Taiwan University</h4>          
         </div>
         <div className="navbar-container">
@@ -30,7 +28,7 @@ class Navbar extends Component {
                           </div>
                         </li>
                         <li className="nav-item active"> 
-                          <Link className="nav-link" href="/news">最新消息</Link>
+                          <Link className="nav-link" to="/news">最新消息</Link>
                         </li>
                         <li className="nav-item active">
                             <a className="nav-link" href="/member">實驗室成員</a>
