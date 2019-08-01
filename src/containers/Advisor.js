@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import $ from 'jquery'
-import photo from "../img/rick.jpg"
+import photo from "../img/member_picture/rick.jpg"
 
 class Advisor extends Component {
   componentDidMount(){

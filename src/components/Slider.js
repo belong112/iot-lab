@@ -1,7 +1,7 @@
 import React,{ Component } from 'react';
 import { Slide } from 'react-slideshow-image';
-import bgimg1 from "../img/4.jpg" 
-import bgimg2 from "../img/5.jpg"
+import bgimg1 from "../img/bg1.png" 
+import bgimg2 from "../img/bg2.png"
 import bgimg3 from "../img/6.jpg"
 import "../css/slider.css"
 
@@ -27,19 +27,20 @@ class Sliders extends Component {
     return (
       <Slide {...properties}>
         <div className="each-slide">
-          <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
-            <span>賀! 我大中華民國奧運勇奪三金二銀</span>
+          <div style={{ backgroundImage: `url(${slideImages[0]})`,
+      backgroundSize: '100% 100%'}}>
+            <span>賀! 我國奧運勇奪三金二銀</span>
           
           </div>
         </div>
         <div className="each-slide">
-          <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
-            <span>慟! 我大中華民國香港特別淪陷區元朗事件</span>
+          <div style={{backgroundImage: `url(${slideImages[1]})`,backgroundSize: '100% 100%'}}>
+            <span>實驗室最新計畫xxxxxxxxxxxxxxxx</span>
           </div>
         </div>
         <div className="each-slide">
           <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
-            <span>賀! 我大中華民國中國特別淪陷區重返自由</span>
+            <span>實驗室研究方向xxxxxxxxxxxxxxx</span>
           </div>
         </div>
       </Slide>

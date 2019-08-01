@@ -7,8 +7,8 @@ class Navbar extends Component {
     	<header>
         <div className="first-container"> 
             <h1>Internet Research Lab</h1> 
-            <a target="_blank" href="https://www.ntu.edu.tw/" ><img src={require('../img/ntu.png')} width="50px" className="logo"/></a>
-            <h4 style={{fontFamily:"Arial"}}>National Taiwan University</h4>          
+            <a target="_blank" href="https://www.ntu.edu.tw/" ><img src={require('../img/ntu.png')}/></a>
+            <h5>National Taiwan University</h5>          
         </div>
         <div className="navbar-container">
             <nav id="navbar" className="navbar navbar-expand-xl navbar-dark" style={{transition: ".5s"}}>

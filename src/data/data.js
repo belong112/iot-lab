@@ -1,5 +1,5 @@
-import img1 from "../img/morty.jpg"
-import img2 from "../img/rick.jpg"
+import img1 from "../img/member_picture/morty.jpg"
+import img2 from "../img/member_picture/rick.jpg"
 const members = [
 	{
 		image:img1,

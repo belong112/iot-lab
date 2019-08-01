@@ -11,7 +11,7 @@ a:hover{
 }
 .first-container{
 	background-image: url(../img/home.png);
-	padding: 4% 7% 4% 7%;
+	padding: 2% 7% 2% 7%;
 	/*
 	background: #1c92d2;  /* fallback for old browsers */
 	/*background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
@@ -22,10 +22,12 @@ a:hover{
 }
 .first-container img{
 	float: left;
+	width: 40px;
 }
-.first-container h4{
-	line-height: inherit;
-	margin-left: 60px;
+.first-container h5{
+	/*line-height: inherit;*/
+	margin-left: 50px;
+	font-family: arial;
 }
 
 .navbar{
