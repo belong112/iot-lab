@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter:700|Noto+Sans+TC&display=swap');
 body{
+	font-size: 18px;
 	background: #f3f3f3;  /* fallback for old browsers */
 }
 a { 
@@ -8,7 +9,21 @@ a {
 } 
 a:hover{
 	text-decoration: none;
+	color: inherit;
 }
+
+@media screen and (max-width: 480px) {
+  .first-container{
+		display: none;
+	}
+	.brand{
+		display:initial;
+	}
+}
+.brand{
+	display: none;
+}
+
 .first-container{
 	background-image: url(../img/home.png);
 	padding: 2% 7% 2% 7%;
@@ -57,7 +72,7 @@ a:hover{
 .index-container{
 	background-color: #f3f3f3;
 	margin: 0px 5% 5% 5%;
-	padding: 5% 5% 5% 5%;
+	padding: 3% 5% 5% 5%;
 }
 
 .three-icons{
@@ -97,7 +112,7 @@ a:hover{
 }
 .container{
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	margin-top: 10px;
 }
 .container p{
@@ -161,7 +176,7 @@ a:hover{
 	margin-bottom: 30px;
 }
 
-.event-container{
+.txtjustify{
 	text-align: justify;
 }
 
@@ -174,20 +189,7 @@ a:hover{
 	display: flex;
 	justify-content: center;
 }
-/*.btn{
-	color: #000;
-	text-decoration: none;
-	border: 1px solid;
-}
-.btn:hover{
-	text-decoration: none;
-	color: #2196f3;
-}
-.btn:focus{
-	border-color: transparent;
-	text-decoration: none;
-	box-shadow: none;
-}*/
-.opensans{
+
+.yahei{
 	font-family: 'Microsoft YaHei';
 }

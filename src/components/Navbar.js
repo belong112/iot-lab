@@ -6,15 +6,15 @@ class Navbar extends Component {
     return (
     	<header>
         <div className="first-container"> 
-            <h1>Internet Research Lab</h1> 
+            <a href="/"><h1>Internet Research Lab</h1></a> 
             <a target="_blank" href="https://www.ntu.edu.tw/" ><img src={require('../img/ntu.png')}/></a>
             <h5>National Taiwan University</h5>          
         </div>
         <div className="navbar-container">
-            <nav id="navbar" className="navbar navbar-expand-xl navbar-dark" style={{transition: ".5s"}}>
+            <nav id="navbar" className="navbar navbar-expand-xl navbar-dark fixed" style={{transition: ".5s"}}>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
-                </button>
+                </button>               
                 <div className="collapse navbar-collapse navbar-items" id="navbarsExample06">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active">
@@ -29,12 +29,12 @@ class Navbar extends Component {
                         </li>
                         <li className="nav-item active"> 
                           <Link className="nav-link" to="/news">最新消息</Link>
+                        </li>                        
+                        <li className="nav-item active">
+                            <a className="nav-link" href="/project">開設課程</a>
                         </li>
                         <li className="nav-item active">
                             <a className="nav-link" href="/member">實驗室成員</a>
-                        </li>
-                        <li className="nav-item active">
-                            <a className="nav-link" href="/project">課程</a>
                         </li>
                         <li className="nav-item active">
                             <a className="nav-link" href="/contact">聯絡我們</a>

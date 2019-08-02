@@ -29,7 +29,7 @@ class Sliders extends Component {
         <div className="each-slide">
           <div style={{ backgroundImage: `url(${slideImages[0]})`,
       backgroundSize: '100% 100%'}}>
-            <span>賀! 我國奧運勇奪三金二銀</span>
+            <span>實驗室研究方將***********</span>
           
           </div>
         </div>

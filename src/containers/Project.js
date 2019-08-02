@@ -14,10 +14,10 @@ class Project extends Component {
   }
   render() {
     return (
-      <div class="main-container">
-        <div class='index-container'>
+      <div className="main-container">
+        <div className='index-container'>
           <div>
-            <h1>開設課程</h1>
+            <h1 className="txtjustify yahei">開設課程</h1>
             <hr/>
           </div>
             <div class="big-container tst row">

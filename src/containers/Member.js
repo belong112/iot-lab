@@ -40,14 +40,9 @@ class Member extends Component {
     return (
       <div className="main-container">
         <div id='test' className='index-container'>
-            <div>
+            <div className="txtjustify yahei">
               <h1>實驗室成員</h1>
               <hr/>
-            </div>
-            <div class="tst row">
-                <div class="col-lg-9 container">
-                    <p>&emsp;本中心成員組成為國立臺灣大學電機資訊學院、電機工程學系、資訊工程學系等領域專家學者及教授共35名（依筆畫排列），研究無線電波、物聯網通訊與系統、資安、物聯網硬體、物聯網應用，並致力結合理論與實務。</p>
-                </div>
             </div>
             <div>
               <div className="buttons small-container">
@@ -56,20 +51,20 @@ class Member extends Component {
                 <a href="#other"><button className="btn btn-outline-primary">其他</button></a>
               </div>
             </div>
-            <div id="phd">
-              <h2 className="opensans" style={{textAlign:"left"}}>博士生</h2><hr/> 
+            <div id="phd" className="small-container">
+              <h2 className=" txtjustify yahei ">博士生</h2>
               <div className="row">
                 {phdmembers}
               </div>
             </div>
-            <div id="master">
-              <h2 className="opensans" style={{textAlign:"left"}}>碩士生</h2><hr/> 
+            <div id="master" className="small-container">
+              <h2 className="txtjustify yahei">碩士生</h2>
               <div className="row">
                 {mastermembers}
               </div>
             </div> 
-            <div id="other">
-              <h2 className="opensans" style={{textAlign:"left"}}>其他</h2><hr/> 
+            <div id="other" className="small-container">
+              <h2 className="txtjustify yahei">其他</h2> 
               <div className="row">
                 {othermembers}
               </div>
