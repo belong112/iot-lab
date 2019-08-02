@@ -19,7 +19,7 @@ class Home extends Component {
   render() {
     return (
       <div className="main-container">
-            <Sliders/>        
+            <img src={require('../img/bg1.png')} style={{width:"100%" ,height:"400px"}}/>       
             <div className='index-container'>
             	<div className="big-container row">            		
             		<div className="col-lg-8 container">

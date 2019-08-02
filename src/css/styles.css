@@ -1,31 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter:700|Noto+Sans+TC&display=swap');
 body{
 	font-size: 18px;
-	background: #f3f3f3;  /* fallback for old browsers */
+	background: #fff;  /* fallback for old browsers */
 }
 a { 
-	color: inherit; 
+	color: initial; 
 	text-decoration: none;
 } 
 a:hover{
 	text-decoration: none;
-	color: inherit;
+	color: initial;
 }
-
-@media screen and (max-width: 480px) {
-  .first-container{
-		display: none;
-	}
-	.brand{
-		display:initial;
-	}
-}
-.brand{
-	display: none;
+.main-container{
+	margin: 0px 8% 0px 8%;
+	text-align: center;
 }
 
 .first-container{
-	background-image: url(../img/home.png);
+	background-image: url(../img/home2.png);
 	padding: 2% 7% 2% 7%;
 	/*
 	background: #1c92d2;  /* fallback for old browsers */
@@ -50,14 +42,19 @@ a:hover{
 	padding-left: 7%;
 }
 
+.navbar-brand{
+	display: none;
+}
 .navbar-items{
 	float: right;
 	color: #fff;
 }
 .nav-item{
 	font-family: 'Microsoft YaHei', sans-serif;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	transition: .3s;
+	margin-left: 3px;
+	margin-right: 3px;
 	border: 1.5px solid transparent;
 }
 .nav-item:hover{
@@ -65,13 +62,8 @@ a:hover{
 	border: 1.5px solid #FFF;
 }
 
-.main-container{
-	text-align: center;
-}
-
 .index-container{
 	background-color: #f3f3f3;
-	margin: 0px 5% 5% 5%;
 	padding: 3% 5% 5% 5%;
 }
 
@@ -192,4 +184,24 @@ a:hover{
 
 .yahei{
 	font-family: 'Microsoft YaHei';
+}
+
+.newstitle{
+	transition: .3s;
+	color: #0E90D2;
+}
+.newstitle:hover{
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+  .first-container{
+		display: none;
+	}
+	.main-container{
+		margin:0px;
+	}
+	.navbar-brand{
+		display: initial;
+	}
 }
