@@ -193,6 +193,12 @@ a:hover{
 .newstitle:hover{
 	text-decoration: underline;
 }
+.pubulication-table thead{
+	background-color: azure;
+}
+.pubulication-table td{
+	font-size: 0.9rem;
+}
 
 @media screen and (max-width: 480px) {
   .first-container{

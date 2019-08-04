@@ -24,41 +24,43 @@ class Research extends Component {
                 <h1>研究計畫</h1>
                 <hr/>
               </div>
-              <div className="big-container col-lg-12">
-                <div className="small-container">
-                  <h1>實驗室目標</h1>
-                  <p>to bring a better life to the citizens</p>
-                  <p>The Internet Research Laboratory (IRL), led by Professor Wanjiun Liao of the Department of Electrical Engineering in the National Taiwan University, is engaged in cutting-edge network protocol design. Research in the IRL focuses on provision of solutions for problems encountered in today's Internet as well as Next Generation Internet with more potential applications. Our research activities cover the whole internet, including Broadband Internet, Wireless Internet and Adhoc Technologies, etc.</p>
-                </div>
-                <div className="small-container">
-                  <h1>目前計畫</h1>
-                  <div className="three-icons row">
-                    <div className="one-icon col-lg-4 col-md-12">
-                      <div className="backgroundcircle">
-                        <img src={ggggg}/>                      
+              <div className="index-container">
+                <div className="big-container col-lg-12">
+                  <div className="small-container">
+                    <h1>實驗室目標</h1>
+                    <p>to bring a better life to the citizens</p>
+                    <p>The Internet Research Laboratory (IRL), led by Professor Wanjiun Liao of the Department of Electrical Engineering in the National Taiwan University, is engaged in cutting-edge network protocol design. Research in the IRL focuses on provision of solutions for problems encountered in today's Internet as well as Next Generation Internet with more potential applications. Our research activities cover the whole internet, including Broadband Internet, Wireless Internet and Adhoc Technologies, etc.</p>
+                  </div>
+                  <div className="small-container">
+                    <h1>目前計畫</h1>
+                    <div className="three-icons row">
+                      <div className="one-icon col-lg-4 col-md-12">
+                        <div className="backgroundcircle">
+                          <img src={ggggg}/>                      
+                        </div>
+                        <div className="words">
+                          <p>5G</p>
+                          <p>Edge computing and learning for computational offloading</p>
+                        </div>            
                       </div>
-                      <div className="words">
-                        <p>5G</p>
-                        <p>Edge computing and learning for computational offloading</p>
-                      </div>            
-                    </div>
-                    <div className="one-icon col-lg-4 col-md-12">
-                      <div className="backgroundcircle">
-                        <img src={vr}/>                      
-                      </div> 
-                      <div className="words">
-                        <p>VR/AR</p>
-                        <p>Wireless, lightweight, and interactivity.</p>
-                      </div> 
-                    </div>
-                    <div className="one-icon col-lg-4 col-md-6">
-                      <div className="backgroundcircle">
-                        <img src={bc}/>                      
+                      <div className="one-icon col-lg-4 col-md-12">
+                        <div className="backgroundcircle">
+                          <img src={vr}/>                      
+                        </div> 
+                        <div className="words">
+                          <p>VR/AR</p>
+                          <p>Wireless, lightweight, and interactivity.</p>
+                        </div> 
                       </div>
-                      <div className="words">
-                        <p>Blockchain</p>
-                        <p>Trust framework for IoT and for 5G/6G</p>
-                      </div>                    
+                      <div className="one-icon col-lg-4 col-md-6">
+                        <div className="backgroundcircle">
+                          <img src={bc}/>                      
+                        </div>
+                        <div className="words">
+                          <p>Blockchain</p>
+                          <p>Trust framework for IoT and for 5G/6G</p>
+                        </div>                    
+                      </div>
                     </div>
                   </div>
                 </div>

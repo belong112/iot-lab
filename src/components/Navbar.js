@@ -32,7 +32,7 @@ class Navbar extends Component {
                             <NavLink className="nav-link" to="/advisor">指導教授</NavLink>
                         </li>                        
                         <li className="nav-item active">
-                            <NavLink className="nav-link" to="/project">研究計畫</NavLink>
+                            <NavLink className="nav-link" to="/project">論文發布</NavLink>
                         </li>
                         <li className="nav-item active">
                             <NavLink className="nav-link" to="/contact">聯絡我們</NavLink>

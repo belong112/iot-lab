@@ -25,7 +25,7 @@ class Home extends Component {
             		<div className="col-lg-8 container">
             			<h2 className="yahei container"><i className="fas fa-newspaper"></i> 最新消息</h2>
             			<Table bordered>
-						        <thead align="center" style={{backgroundColor:"#f2fcfe"}}>
+						        <thead align="center" style={{backgroundColor:"azure"}}>
 						          <tr>
 						            <th>日期</th>
 						            <th>消息內容</th>						            
