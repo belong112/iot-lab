@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import bgimg from "../img/6.jpg"
-import horse from "../img/horse.jpg"
 import $ from 'jquery'
 import data from "../data/data.js"
 
@@ -16,7 +14,7 @@ class Page extends Component {
     });
   }
   render() {
-    const postids=["0","1"]
+    const postids=data.posts_number
     const {id} = this.props.match.params;
     return id && postids.includes(id)? (
       <div className="main-container">          
@@ -28,10 +26,10 @@ class Page extends Component {
             <div class="big-container tst row">
               <div className="index-container">
                 <div class="event-container txtjustify">
-                  <h4>{data.posts[id].date}</h4>
-                  <h1>{data.posts[id].title}</h1>
-                  <p>&emsp;{data.posts[id].text}</p>
-                  </div>                
+                  <h4>{data.posts[id].date || 'N/A'}</h4>
+                  <h1>{data.posts[id].title || 'N/A'}</h1>
+                  <p>{data.posts[id].text || 'N/A'}</p>
+                </div>                
               </div>                                            
             </div> 
           </div>           

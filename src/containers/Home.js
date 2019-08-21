@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import bgimg from "../img/4.jpg"
 import $ from 'jquery'
-import Sliders from "../components/Slider.js"
 import { Table } from 'reactstrap'
 
 class Home extends Component {
@@ -19,7 +17,7 @@ class Home extends Component {
   render() {
     return (
       <div className="main-container">
-            <img src={require('../img/bg1.png')} style={{width:"100%" ,height:"400px"}}/>       
+            <img alt='bgimg' src={require('../img/bg1.png')} style={{width:"100%" ,height:"400px"}}/>       
             <div className='index-container'>
             	<div className="big-container row">            		
             		<div className="col-lg-8 container">
@@ -27,17 +25,17 @@ class Home extends Component {
             			<Table bordered>
 						        <thead align="center" style={{backgroundColor:"azure"}}>
 						          <tr>
-						            <th>日期</th>
+						            <th scope='row'>日期</th>
 						            <th>消息內容</th>						            
 						          </tr>
 						        </thead>
 						        <tbody>
 						          <tr>
-						            <td width="40px" scope="row">2019/3/18</td>
+						            <td width="40px">2019/3/18</td>
 						            <td>物聯網中心參訪趨勢科技</td>
 						          </tr>
 						          <tr>
-						            <td scope="row">2019/1/21</td>
+						            <td>2019/1/21</td>
 						            <td>AIOT智慧物聯網論壇</td>
 						          </tr>
 						        </tbody>

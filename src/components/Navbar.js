@@ -8,7 +8,7 @@ class Navbar extends Component {
         <div className="main-container">
         <div className="first-container txtjustify"> 
             <NavLink to="/"><h1>Internet Research Lab</h1></NavLink> 
-            <a target="_blank" href="https://www.ntu.edu.tw/" ><img src={require('../img/ntu.png')}/></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.ntu.edu.tw/" ><img alt="ntu_logo" src={require('../img/ntu.png')}/></a>
             <h5>National Taiwan University</h5>          
         </div>
         <div className="navbar-container">
@@ -16,7 +16,7 @@ class Navbar extends Component {
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>   
-                <a className="navbar-brand" style={{color:'white'}}>Internet Research Lab</a>            
+                <span className="navbar-brand" style={{color:'white'}}>Internet Research Lab</span>            
                 <div className="collapse navbar-collapse navbar-items" id="navbarsExample06">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active">

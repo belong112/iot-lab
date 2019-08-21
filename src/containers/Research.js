@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import bgimg from "../img/4.jpg"
 import vr from "../img/vr.png"
 import bc from "../img/blockchain.png"
 import ggggg from "../img/5g.png" 
@@ -36,7 +35,7 @@ class Research extends Component {
                     <div className="three-icons row">
                       <div className="one-icon col-lg-4 col-md-12">
                         <div className="backgroundcircle">
-                          <img src={ggggg}/>                      
+                          <img alt='5g' src={ggggg}/>                      
                         </div>
                         <div className="words">
                           <p>5G</p>
@@ -45,7 +44,7 @@ class Research extends Component {
                       </div>
                       <div className="one-icon col-lg-4 col-md-12">
                         <div className="backgroundcircle">
-                          <img src={vr}/>                      
+                          <img src={vr} alt='VR'/>                      
                         </div> 
                         <div className="words">
                           <p>VR/AR</p>
@@ -54,7 +53,7 @@ class Research extends Component {
                       </div>
                       <div className="one-icon col-lg-4 col-md-6">
                         <div className="backgroundcircle">
-                          <img src={bc}/>                      
+                          <img src={bc} alt='blockchain'/>                      
                         </div>
                         <div className="words">
                           <p>Blockchain</p>

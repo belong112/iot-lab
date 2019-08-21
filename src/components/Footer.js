@@ -15,7 +15,7 @@ class Footer extends Component {
           </div>
         </div>
         <div class="back-to-top">
-          <a href="#"><img src={logo}/></a>
+          <a href="#top"><img alt='logo' src={logo}/></a>
         </div>
       </footer>
     );

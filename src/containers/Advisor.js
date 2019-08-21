@@ -23,7 +23,7 @@ class Advisor extends Component {
               </div>  
               <div className="advisor-container row">
                   <div className="col-lg-4">
-                    <img src={photo} style={{height:"300px"}} />
+                    <img alt='professor' src={photo} style={{height:"300px"}} />
                   </div>
                   <div className="col-lg-8 prof-name">
                     <p>廖婉君   Wan-jiun Liao</p>
