@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import $ from 'jquery'
 import {Table} from "reactstrap"
+import data from '../data/data.js'
 
 class Project extends Component {
   componentDidMount(){
@@ -14,6 +15,15 @@ class Project extends Component {
     });
   }
   render() {
+    const trs =  data.r_paper.map(item =>{
+      return(
+        <tr>
+          <td>{item.title}</td>
+          <td>{item.author}</td>
+          <td>{item.date}</td>
+        </tr>
+      )
+    })
     return (
       <div className="main-container">
         <div className='index-container'>
@@ -32,21 +42,7 @@ class Project extends Component {
 							          </tr>
 							        </thead>
 							        <tbody>
-							          <tr>
-							            <td>How Time Matters: Learning Time-Decay Attention for Contextual Spoken Language Understanding in Dialogues</td>
-							            <td>Chiu chi chen</td>
-							            <td>2019.1</td>
-							          </tr>
-							          <tr>
-							            <td>Jacob</td>
-							            <td>Thornton</td>
-							            <td>@fat</td>
-							          </tr>
-							          <tr>
-							            <td>Larry</td>
-							            <td>the Bird</td>
-							            <td>@twitter</td>
-							          </tr>
+							          {trs}
 							        </tbody>
 							      </Table>
                 </div>

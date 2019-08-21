@@ -57,7 +57,7 @@ class Home extends Component {
                   	<li>VR/AR wirless lightweight and interactivity.</li>
                   	<li>Blockchain Trust framework for IoT and for 5G/6G</li>
                   </ul>
-                  <a href="./research"><button className="btn btn-primary">more...</button></a>
+                  <a href="./research"><button className="btn btn-outline-primary">more...</button></a>
                 </div>
               </div>
             </div>

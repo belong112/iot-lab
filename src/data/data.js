@@ -118,4 +118,23 @@ const news = [
 		text:"今天的好運並不常見，灰色的物品能為你帶來好運。今天會有平常想不出來的好點子。"
 	}
 ]
-export default {members, posts, news, posts_number};
+
+const r_paper = [
+	{
+		title:'How Time Matters: Learning Time-Decay Attention for Contextual Spoken Language Understanding in Dialogues',
+		author:'chiu chi chen',
+		date:'2019.1'
+	},
+	{
+		title:'Dynamic service negotiation protocol (DSNP) and wireless',
+		author:'Google',
+		date:'2017.4'
+	},
+	{
+		title:'Dynamic Programming and Optimal control',
+		author:'Amazon',
+		date:'2018.4'
+	}
+]
+
+export default {members, posts, news, posts_number, r_paper};
