@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import $ from 'jquery'
 import Mycard from "../components/Mycard"
 import data from "../data/data.js"
-console.log(data)
+
 class Member extends Component {
   componentDidMount(){
     $(window).scroll(function() {

@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import {NavLink} from "react-router-dom";
 
 class Navbar extends Component {
+    close () {
+
+    }
+
+
   render() {
     return (
     	<header>
@@ -13,7 +18,7 @@ class Navbar extends Component {
         </div>
         <div className="navbar-container">
             <nav id="navbar" className="navbar navbar-expand-xl navbar-dark fixed" style={{transition: ".5s"}}>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06">
                     <span className="navbar-toggler-icon"></span>
                 </button>   
                 <span className="navbar-brand" style={{color:'white'}}>Internet Research Lab</span>            
@@ -23,7 +28,7 @@ class Navbar extends Component {
                             <NavLink className="nav-link" to="/">首頁</NavLink>
                         </li>                        
                         <li className="nav-item active"> 
-                          <NavLink className="nav-link" to="/research">關於我們</NavLink>
+                          <NavLink onClick={this.close} className="nav-link" to="/research">關於我們</NavLink>
                         </li> 
                         <li className="nav-item active"> 
                           <NavLink className="nav-link" to="/news">最新消息</NavLink>

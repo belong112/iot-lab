@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import $ from 'jquery'
 import {Table} from "reactstrap"
 import data from '../data/data.js'
+import pdata from  "../data/result.js"
 
 class Project extends Component {
   componentDidMount(){
@@ -15,11 +16,10 @@ class Project extends Component {
     });
   }
   render() {
-    const trs =  data.r_paper.map(item =>{
+    const trs =  pdata.map(item =>{
       return(
         <tr>
           <td>{item.title}</td>
-          <td>{item.author}</td>
           <td>{item.date}</td>
         </tr>
       )
@@ -36,8 +36,7 @@ class Project extends Component {
                     <Table hover className="pubulication-table">
 							        <thead>
 							          <tr>
-							            <th>Title</th>
-							            <th>Author</th>
+							            <th>Conference & proceeding papers</th>
 							            <th>Date</th>
 							          </tr>
 							        </thead>
