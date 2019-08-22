@@ -3,6 +3,9 @@ body{
 	font-size: 18px;
 	background: #fff;  /* fallback for old browsers */
 }
+html{
+	scroll-behavior: smooth;
+}
 a { 
 	color: initial; 
 	text-decoration: none;

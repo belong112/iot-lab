@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import {NavLink} from "react-router-dom";
+import $ from 'jquery';
 
 class Navbar extends Component {
-    close () {
-
-    }
-
+  componentDidMount() {
+    $('.nav-link').on('click', function(){
+      $('.navbar-collapse').removeClass('show');
+    });
+  }
 
   render() {
     return (

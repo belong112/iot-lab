@@ -1,33 +1,5 @@
 import img1 from "../img/member_picture/morty.jpg"
 import img2 from "../img/member_picture/rick.jpg"
-var request = require("request");
-var cheerio = require("cheerio");
-
-// 台南市的氣溫
-var url = "http://www.ee.ntu.edu.tw/publist?id=66";
-
-// 取得網頁資料
-request(url, function (error, response, body) {
-  if (!error) {
-
-    // 用 cheerio 解析 html 資料
-    var $ = cheerio.load(body);
-
-    // 篩選有興趣的資料
-    let arr = []
-    var temperature = $("#jpaper ol li").each(function(i , ele) {
-      if(i<10)
-        arr.push($(this).text())
-    });
-
-    // 輸出
-    console.log(arr);
-
-  } else {
-    console.log("擷取錯誤：" + error);
-  }
-});
-
 const members = [
 	{
 		image:img1,
