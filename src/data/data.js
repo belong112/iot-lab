@@ -1,50 +1,3 @@
-import img1 from "../img/member_picture/morty.jpg"
-import img2 from "../img/member_picture/rick.jpg"
-const members = [
-	{
-		image:img1,
-		identity:"phd",
-		name:"王建民",
-		text:'棒球'
-	},
-	{
-		image:img2,
-		identity:"master",
-		name:'林書豪',
-		text:'籃球'
-	},
-	{
-		identity:"master",
-		name:'全',
-		text:'可親'
-	},
-	{
-		image:img2,
-		identity:"phd",
-		name:'薛',
-		text:'阿龍'
-	},
-	{
-		identity:"master",
-		name:'ㄟ',
-		text:''
-	},
-	{
-		identity:"other",
-		name:'朱',
-		text:'一ㄟ服'
-	},
-	{
-		identity:"master",
-		name:'你好',
-		text:'不好'
-	},
-	{
-		identity:"other",
-		name:'嗨',
-		text:'郭yeee'
-	}		
-]
 
 //最新消息 date:為日期, title是標題, text是內文
 //複製其中一則消息後照相同格式修改即可
@@ -117,22 +70,4 @@ const news = [
 	}
 ]
 
-const r_paper = [
-	{
-		title:'How Time Matters: Learning Time-Decay Attention for Contextual Spoken Language Understanding in Dialogues',
-		author:'chiu chi chen',
-		date:'2019.1'
-	},
-	{
-		title:'Dynamic service negotiation protocol (DSNP) and wireless',
-		author:'Google',
-		date:'2017.4'
-	},
-	{
-		title:'Dynamic Programming and Optimal control',
-		author:'Amazon',
-		date:'2018.4'
-	}
-]
-
-export default {members, posts, news, posts_number, r_paper};
+export default { posts, news, posts_number };

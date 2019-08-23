@@ -20,7 +20,7 @@ class News extends Component {
       return(
         <div class="event-container">
           <h4>{item.date || "null"}</h4>
-          <h1 className="newstitle"><NavLink to={`/page/${i}`}>{item.title || "Null"}</NavLink></h1>
+          <h3 className="newstitle"><NavLink to={`/news/${i}`}>{item.title || "Null"}</NavLink></h3>
           <p>{item.text|| "null"}</p>
           </div>
         )
@@ -28,11 +28,11 @@ class News extends Component {
     return (
       <div className="main-container">          
           <div className='index-container'>
-            <div className="yahei txtjustify">
+            <div className="yahei text-justify">
               <h1>最新消息</h1>
               <hr/>
             </div>
-            <div class="big-container tst row">
+            <div class="mb-5 text-justify row">
               <div className="index-container">
                 {news}
               </div>                                            

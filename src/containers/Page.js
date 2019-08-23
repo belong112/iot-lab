@@ -19,15 +19,15 @@ class Page extends Component {
     return id && postids.includes(id)? (
       <div className="main-container">          
           <div className='index-container'>
-            <div className="yahei txtjustify">
+            <div className="yahei text-justify">
               <h1>最新消息</h1>
               <hr/>
             </div>
-            <div class="big-container tst row">
+            <div class="mb-5 row">
               <div className="index-container">
-                <div class="event-container txtjustify">
+                <div class="event-container text-justify">
                   <h4>{data.posts[id].date || 'N/A'}</h4>
-                  <h1>{data.posts[id].title || 'N/A'}</h1>
+                  <h3>{data.posts[id].title || 'N/A'}</h3>
                   <p>{data.posts[id].text || 'N/A'}</p>
                 </div>                
               </div>                                            

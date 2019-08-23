@@ -4,7 +4,6 @@ import Navbar from "./../components/Navbar"
 import Home from "./Home.js"
 import Contact from "./Contact.js"
 import Project from "./Project.js"
-import Member from "./Member.js"
 import Research from "./Research.js"
 import News from "./News.js"
 import Advisor from "./Advisor.js"
@@ -18,11 +17,10 @@ class Main extends Component {
       <div>
         <Navbar/>
         <Switch>
-          <Route path="/page/:id?" component={Page} />
+          <Route exact path="/news" component={News} />
+          <Route path="/news/:id?" component={Page} />
           <Route path="/advisor" component={Advisor} />
-          <Route path="/news" component={News} />
           <Route path="/project" component={Project} />
-          <Route path="/member" component={Member} />
           <Route path="/research" component={Research} />
           <Route path="/contact" component={Contact} />
           <Route path="/" component={Home} />

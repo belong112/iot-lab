@@ -13,7 +13,7 @@ class Navbar extends Component {
     return (
     	<header>
         <div className="main-container">
-        <div className="first-container txtjustify"> 
+        <div className="first-container text-justify"> 
             <NavLink to="/"><h1>Internet Research Lab</h1></NavLink> 
             <a target="_blank" rel="noopener noreferrer" href="https://www.ntu.edu.tw/" ><img alt="ntu_logo" src={require('../img/ntu.png')}/></a>
             <h5>National Taiwan University</h5>          

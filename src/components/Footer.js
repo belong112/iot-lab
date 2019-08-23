@@ -5,14 +5,10 @@ class Footer extends Component {
   render() {
     return (
     	<footer>
-        <div className="footer-container">
-          <div className="footer">
-            國立臺灣大學National Taiwan University 10617 臺北市羅斯福路四段一號 
-          </div>
-          <div className="footer"><i class="fas fa-phone"></i> +886-2-23635251 ext. 6608</div>
-          <div className="footer">
-            Copyright 2019 IRL All Rights Reserved
-          </div>
+        <div className="footer-container footer">
+          <span>國立臺灣大學National Taiwan University 10617 臺北市羅斯福路四段一號</span><br/> 
+          <span><i class="fas fa-phone"></i> +886-2-23635251 ext. 6608</span><br/>
+          <span>Copyright 2019 IRL All Rights Reserved</span>
         </div>
         <div class="back-to-top">
           <a href="#top"><img alt='logo' src={logo}/></a>

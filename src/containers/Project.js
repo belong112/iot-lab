@@ -28,11 +28,11 @@ class Project extends Component {
       <div className="main-container">
         <div className='index-container'>
           <div>
-            <h1 className="txtjustify yahei">論文發布</h1>
+            <h1 className="text-justify yahei">論文發布</h1>
             <hr/>
           </div>
-            <div class="big-container tst row">
-                <div className="col-lg-11">
+            <div class="mb-5 justify-content-center row">
+                <div className="text-justify col-lg-11">
                     <Table hover className="pubulication-table">
 							        <thead>
 							          <tr>
