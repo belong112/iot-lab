@@ -25,10 +25,7 @@ class Navbar extends Component {
                 </button>   
                 <span className="navbar-brand" style={{color:'white'}}>Internet Research Lab</span>            
                 <div className="collapse navbar-collapse navbar-items" id="navbarsExample06">
-                    <ul className="navbar-nav mr-auto">
-                        <li className="nav-item active">
-                            <NavLink className="nav-link" to="/">首頁</NavLink>
-                        </li>                        
+                    <ul className="navbar-nav mr-auto">                       
                         <li className="nav-item active"> 
                           <NavLink onClick={this.close} className="nav-link" to="/research">關於我們</NavLink>
                         </li> 

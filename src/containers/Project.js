@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from "react-router-dom"
 import $ from 'jquery'
 import {Table} from "reactstrap"
 import data from '../data/data.js'
@@ -29,6 +30,10 @@ class Project extends Component {
         <div className='index-container'>
           <div>
             <h1 className="text-justify yahei">論文發布</h1>
+            <ol className="breadcrumb bg-transparent p-1">
+              <li className="breadcrumb-item"><NavLink to="/">首頁</NavLink></li>
+              <li className="breadcrumb-item active">論文發布</li>
+            </ol>
             <hr/>
           </div>
             <div class="mb-5 justify-content-center row">

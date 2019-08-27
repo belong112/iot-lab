@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import $ from 'jquery'
+import { NavLink } from "react-router-dom"
 import data from "../data/data.js"
+import img1 from "../img/5.jpg"
 
 class Page extends Component {
   componentDidMount(){
@@ -20,15 +22,20 @@ class Page extends Component {
       <div className="main-container">          
           <div className='index-container'>
             <div className="yahei text-justify">
-              <h1>最新消息</h1>
+              <ol className="breadcrumb bg-transparent p-1">
+                <li className="breadcrumb-item"><NavLink to="/">首頁</NavLink></li>
+                <li className="breadcrumb-item"><NavLink to="/news">最新消息</NavLink></li>
+                <li className="breadcrumb-item active">{data.posts[id].title || 'N/A'}</li>
+              </ol>
               <hr/>
             </div>
             <div class="mb-5 row">
-              <div className="index-container">
-                <div class="event-container text-justify">
+              <div className="px-5">
+                <div className="event-container text-justify">
                   <h4>{data.posts[id].date || 'N/A'}</h4>
                   <h3>{data.posts[id].title || 'N/A'}</h3>
                   <p>{data.posts[id].text || 'N/A'}</p>
+                  <img src={data.posts[id].image || img1} className="img-fluid mx-auto d-block" width="70%" />
                 </div>                
               </div>                                            
             </div> 

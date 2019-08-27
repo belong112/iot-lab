@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from "react-router-dom"
 import vr from "../img/vr.png"
 import bc from "../img/blockchain.png"
 import ggggg from "../img/5g.png" 
@@ -21,6 +22,10 @@ class Research extends Component {
             <div className='index-container'>
               <div className="col-lg-12 text-justify yahei">
                 <h1>研究計畫</h1>
+                <ol className="breadcrumb bg-transparent p-1">
+                  <li className="breadcrumb-item"><NavLink to="/">首頁</NavLink></li>
+                  <li className="breadcrumb-item active">研究計畫</li>
+                </ol>
                 <hr/>
               </div>
               <div className="mx-3">

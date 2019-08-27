@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { NavLink } from "react-router-dom"
 import $ from 'jquery'
 
 class Contact extends Component {
@@ -16,8 +17,12 @@ class Contact extends Component {
     return (
       <div className="main-container">
         <div className='index-container'>
-          <div className="txtjustify yahei">
+          <div className="text-justify yahei">
             <h1>聯絡我們</h1>
+            <ol className="breadcrumb bg-transparent p-1">
+              <li className="breadcrumb-item"><NavLink to="/">首頁</NavLink></li>
+              <li className="breadcrumb-item active">聯絡我們</li>
+            </ol>
             <hr/>
           </div>
           <div className="small-container">

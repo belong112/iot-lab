@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import $ from 'jquery'
+import { NavLink } from 'react-router-dom'
 import photo from "../img/member_picture/wjliao.jpg"
 
 class Advisor extends Component {
@@ -19,6 +20,10 @@ class Advisor extends Component {
             <div className='index-container'>
               <div>
                 <h1 className="text-justify yahei">指導教授</h1>
+                <ol className="breadcrumb bg-transparent p-1">
+                  <li className="breadcrumb-item"><NavLink to="/">首頁</NavLink></li>
+                  <li className="breadcrumb-item active">指導教授</li>
+                </ol>
                 <hr/>
               </div>  
               <div className="justify-content-center my-5 row">
