@@ -18,8 +18,8 @@ class Advisor extends Component {
     return (
       <div className="main-container">           
             <div className='index-container'>
-              <div>
-                <h1 className="text-justify yahei">指導教授</h1>
+              <div className="col-lg-12 text-justify yahei">
+                <h1>指導教授</h1>
                 <ol className="breadcrumb bg-transparent p-1">
                   <li className="breadcrumb-item"><NavLink to="/">首頁</NavLink></li>
                   <li className="breadcrumb-item active">指導教授</li>

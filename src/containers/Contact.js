@@ -17,7 +17,7 @@ class Contact extends Component {
     return (
       <div className="main-container">
         <div className='index-container'>
-          <div className="text-justify yahei">
+          <div className="text-justify yahei col-lg-12">
             <h1>聯絡我們</h1>
             <ol className="breadcrumb bg-transparent p-1">
               <li className="breadcrumb-item"><NavLink to="/">首頁</NavLink></li>

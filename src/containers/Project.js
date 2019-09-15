@@ -28,8 +28,8 @@ class Project extends Component {
     return (
       <div className="main-container">
         <div className='index-container'>
-          <div>
-            <h1 className="text-justify yahei">論文發布</h1>
+          <div className='text-justify yahei col-lg-12'>
+            <h1>論文發布</h1>
             <ol className="breadcrumb bg-transparent p-1">
               <li className="breadcrumb-item"><NavLink to="/">首頁</NavLink></li>
               <li className="breadcrumb-item active">論文發布</li>

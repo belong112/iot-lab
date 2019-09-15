@@ -35,7 +35,7 @@ class News extends Component {
     return (
       <div className="main-container">          
           <div className='index-container'>
-            <div className="yahei text-justify">
+            <div className="col-lg-12 yahei text-justify">
               <h1>最新消息</h1>
               <ol className="breadcrumb bg-transparent p-1">
                 <li className="breadcrumb-item"><NavLink to="/">首頁</NavLink></li>

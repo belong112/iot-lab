@@ -21,7 +21,7 @@ class Page extends Component {
     return id && postids.includes(id)? (
       <div className="main-container">          
           <div className='index-container'>
-            <div className="yahei text-justify">
+            <div className="col-lg-12 yahei text-justify">
               <ol className="breadcrumb bg-transparent p-1">
                 <li className="breadcrumb-item"><NavLink to="/">首頁</NavLink></li>
                 <li className="breadcrumb-item"><NavLink to="/news">最新消息</NavLink></li>
@@ -35,7 +35,10 @@ class Page extends Component {
                   <h4>{data.posts[id].date || 'N/A'}</h4>
                   <h3>{data.posts[id].title || 'N/A'}</h3>
                   <p>{data.posts[id].text || 'N/A'}</p>
-                  <img src={data.posts[id].image || img1} className="img-fluid mx-auto d-block" width="70%" />
+                  <div className='text-center'>
+                    <img src={data.posts[id].image || img1} className="img-fluid mx-auto d-block" width="70%"/>
+                    <p className="font-italic">藍藍路</p>
+                  </div>
                 </div>                
               </div>                                            
             </div> 
