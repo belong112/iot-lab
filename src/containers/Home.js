@@ -50,7 +50,7 @@ class Home extends Component {
               <div className="mb-5 row">                
                 <div className="col-lg container">
                   <h2 className="yahei"><i className="fas fa-home"></i> 關於實驗室</h2>
-                  <p>&emsp;&emsp;「電信研究中心」於81年3月成立，並於106年更名為「物聯網研究中心」（以下簡稱本中心）。本中心整合國立臺灣大學電機資訊學院相關系所，為配合國家經濟發展及未來著眼跨領域研究，以期達成從感測器、通訊網路、應用服務至關鍵性軟硬體平台之深耕研究，並拓展與物聯網應用與系統相關領域專家之合作。</p>
+                  <p>&emsp;The Internet Research Laboratory (IRL), led by Professor Wanjiun Liao of the Department of Electrical Engineering in the National Taiwan University, is engaged in cutting-edge network protocol design</p>
                   
                 </div>
                 <div className="col-lg container">

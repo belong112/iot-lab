@@ -32,7 +32,6 @@ class Research extends Component {
                 <div className="mb-5 text-justify">
                   <div className="md-4">
                     <h2>實驗室目標</h2>
-                    <p>to bring a better life to the citizens</p>
                     <p>The Internet Research Laboratory (IRL), led by Professor Wanjiun Liao of the Department of Electrical Engineering in the National Taiwan University, is engaged in cutting-edge network protocol design. Research in the IRL focuses on provision of solutions for problems encountered in today's Internet as well as Next Generation Internet with more potential applications. Our research activities cover the whole internet, including Broadband Internet, Wireless Internet and Adhoc Technologies, etc.</p>
                   </div>
                   <div className="mb-4">

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ScrollUpButton from "react-scroll-up-button"; //Add this line Here
 import logo from "../img/up-chevron-button.png"
 
 class Footer extends Component {
@@ -10,9 +11,7 @@ class Footer extends Component {
           <span><i class="fas fa-phone"></i> +886-2-23635251 ext. 6608</span><br/>
           <span>Copyright 2019 IRL All Rights Reserved</span>
         </div>
-        <div class="back-to-top">
-          <a href="#top"><img alt='logo' src={logo}/></a>
-        </div>
+        <ScrollUpButton style={{width: 50, borderRadius: 50}} ToggledStyle={{right: 25}}/>
       </footer>
     );
   }
