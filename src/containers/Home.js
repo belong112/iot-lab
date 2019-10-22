@@ -59,8 +59,13 @@ class Home extends Component {
                   	<li>5g edge computing</li>
                   	<li>VR/AR wirless lightweight and interactivity.</li>
                   	<li>Blockchain Trust framework for IoT and for 5G/6G</li>
+                    <li>基於區塊鏈的汽車共享和租賃平台</li>
+                    <li>融合區塊鏈技術的 NB-IoT SIM/eSIM卡設計</li>
+                    <li>遊覽車區塊鏈共享賬本</li>
+                    <li>醫療區塊鏈隱私保護和權限控管</li>
+                    <li>基於區塊鏈技術的票據交換</li>
                   </ul>
-                  <NavLink to="/research"><button className="btn btn-outline-primary">more...</button></NavLink>
+                  <NavLink to="/about"><button className="btn btn-outline-primary">more...</button></NavLink>
                 </div>
               </div>
             </div>

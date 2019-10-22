@@ -27,7 +27,7 @@ class Navbar extends Component {
                 <div className="collapse navbar-collapse navbar-items" id="navbarsExample06">
                     <ul className="navbar-nav mr-auto">                       
                         <li className="nav-item active"> 
-                          <NavLink onClick={this.close} className="nav-link" to="/research">關於我們</NavLink>
+                          <NavLink onClick={this.close} className="nav-link" to="/about">關於我們</NavLink>
                         </li> 
                         <li className="nav-item active"> 
                           <NavLink className="nav-link" to="/news">最新消息</NavLink>
