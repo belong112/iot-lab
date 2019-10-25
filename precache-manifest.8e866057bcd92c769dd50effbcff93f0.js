@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0efe4c3ec7b0a6d7726d8d747f325718",
+    "revision": "85cde00665d43500c8e9e22edb5029f2",
     "url": "/iot-lab/index.html"
   },
   {
