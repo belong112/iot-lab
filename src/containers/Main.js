@@ -18,7 +18,8 @@ class Main extends Component {
       <div>
         <Navbar/>
         <Switch>
-          <Route exact path="/news" component={Research} />
+          <Route exact path="/news" component={News} />
+          <Route path="/research" component={Research} />
           <Route path="/news/:id?" component={Page} />
           <Route path="/advisor" component={Advisor} />
           <Route path="/project" component={Project} />

@@ -30,7 +30,7 @@ class Navbar extends Component {
                           <NavLink onClick={this.close} className="nav-link" to="/about">關於我們</NavLink>
                         </li> 
                         <li className="nav-item active"> 
-                          <NavLink className="nav-link" to="/news">研究項目</NavLink>
+                          <NavLink className="nav-link" to="/research">研究項目</NavLink>
                         </li>
                         <li className="nav-item active">
                             <NavLink className="nav-link" to="/advisor">指導教授</NavLink>

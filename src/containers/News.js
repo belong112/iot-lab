@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import $ from 'jquery'
 import { NavLink } from "react-router-dom"
 import data from "../data/data.js"
 import testimg from "../img/4.jpg"

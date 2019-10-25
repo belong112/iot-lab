@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom"
-import $ from "jquery"
 
 class About extends Component {
   render() {

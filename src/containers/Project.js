@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom"
-import $ from 'jquery'
 import {Table} from "reactstrap"
-import data from '../data/data.js'
 import pdata from  "../data/result.js"
 
 class Project extends Component {
