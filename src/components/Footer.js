@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ScrollUpButton from "react-scroll-up-button"; //Add this line Here
-import logo from "../img/up-chevron-button.png"
 
 class Footer extends Component {
   render() {

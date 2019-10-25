@@ -1,18 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom"
-import $ from 'jquery'
 
 class Contact extends Component {
-  componentDidMount(){
-    $(window).scroll(function() {
-      // checks if window is scrolled more than 500px, adds/removes solid class
-      if($(window).scrollTop() > 10) { 
-          $('.back-to-top').css('opacity','.5');
-      } else {
-          $('.back-to-top').css('opacity','0');
-      }
-    });
-  }
   render() {
     return (
       <div className="main-container">

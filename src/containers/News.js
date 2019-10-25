@@ -5,23 +5,12 @@ import data from "../data/data.js"
 import testimg from "../img/4.jpg"
 
 class News extends Component {
-  componentDidMount(){
-    $(window).scroll(function() {
-      // checks if window is scrolled more than 500px, adds/removes solid class
-      if($(window).scrollTop() > 10) { 
-          $('.back-to-top').css('opacity','.5');
-      } else {
-          $('.back-to-top').css('opacity','0');
-      }
-    });
-  }
-
   render() {
     const news = data.posts.map((item,i)=>{
       return(
         <div className="mb-3 pb-2 d-table border-bottom border-secondary">
           <div className="leftpart">
-            <img src={item.image || testimg} />
+            <img src={item.image || testimg}  alt="picture" />
           </div>
           <div className="rightpart">
             <h4>{item.date || "null"}</h4>

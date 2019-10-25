@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom"
-import $ from "jquery"
 
-class About extends Component {
+class Research extends Component {
   render() {
     return (
       <div className="main-container">           
@@ -30,9 +29,6 @@ class About extends Component {
                       <li>區塊鏈創新技術與應用</li>
                       <li>區塊鏈數據安全和隱私保護、來源識別管理</li>
                       <li>AI edge for blockchain</li>
-                      <li>5G/6G AI Edge </li>
-                      <li>B5G AR/VR 智慧醫療: 邊緣運算垂直整合應用</li>
-                      <li>智慧水務即時監控系統</li>
                     </ul>
                     <p>另有以下產學合作計畫</p>
                     <ul>
@@ -50,4 +46,4 @@ class About extends Component {
     );
   }
 }
-export default About;
+export default Research;
