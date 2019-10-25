@@ -10,7 +10,7 @@ class Home extends Component {
               <div className="mb-5 row">                
                 <div className="col-lg container">
                   <h2 className="yahei"><i className="fas fa-home"></i> 關於實驗室</h2>
-                  <p>&emsp;&emsp;本實驗室指導教授為廖婉君教授，主要研究的方向分為三個組別，分別為區塊鏈物聯網組，VR/AR組和5G邊緣運算組</p>
+                  <p>&emsp;&emsp;本實驗室指導教授為廖婉君教授，主要研究的方向分為三個組別，分別為區塊鏈物聯網組，VR/AR組和5G/6G邊緣運算組。本實驗室與外部企業及科技部皆有合作計畫，朝向尖端通訊發展。</p>
                   
                 </div>
                 <div className="col-lg container">

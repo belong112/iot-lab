@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom"
+import { HashLink as Link } from 'react-router-hash-link';
 import pic1 from "../img/project_picture/image1.png"
 import pic2 from "../img/project_picture/image2.png"
 import pic3 from "../img/project_picture/image3.png"
@@ -27,10 +28,19 @@ class Research extends Component {
                     </div>
                     <div className="mx-3">
                         <div className="mb-5 text-justify">
-                            <div className="md-4">
-                                <h2 className="yahei">區塊鏈 / IoT</h2>
-                                <p></p>
-                                <p>目前的研究方向如下</p>
+                            <div className="mb-5">
+                                本實驗室主要研究的方向分為三個組別，分別為
+                                <ul>
+                                    <li><Link className='my_link' smooth to="/research#1">區塊鏈物聯網</Link></li>
+                                    <li><Link className='my_link' smooth to="/research#2">VR/AR</Link></li>
+                                    <li><Link className='my_link' smooth to="/research#3">5G/6G邊緣運算</Link></li>
+                                </ul>
+                            </div>
+
+
+                            <div id="1" className="md-4">
+                                <h4 className="yahei py-2" style={{backgroundColor:'#A5DCFF'}}>區塊鏈 / IoT</h4>
+                                <p>本組別目前由2位博士生、4位碩士生和3位大學部學生組成。成員遍布台大電機系、台大資工系和台大物聯網中心。而目前的研究方向如下</p>
                                 <ul>
                                     <li>車聯網區塊鏈</li>
                                     <li>醫療區塊鏈</li>
@@ -39,7 +49,7 @@ class Research extends Component {
                                     <li>AI edge for blockchain</li>
                                 </ul>
                                 <p>相關的產學合作計畫如下</p>
-                                <h4 className='yahei'>基於區塊鏈的汽車共享和租賃平台</h4>
+                                <h5 className='yahei'>基於區塊鏈的汽車共享和租賃平台</h5>
                                 <span></span>
                                 <div className="text-center">
                                     <ImageZoom image={{src:pic3, alt: 'project_picture', className:'col-lg-7',style: { width: '100%' }}}  />
@@ -50,7 +60,7 @@ class Research extends Component {
                                     <p className="font-italic">物聯網區塊鏈之感測資料來源安全管理</p>
                                 </div>
                                     
-                                <h4 className='yahei'>融合區塊鏈之 NB-IoT SIM/eSIM 資料來源安全設計</h4>
+                                <h5 className='yahei'>融合區塊鏈之 NB-IoT SIM/eSIM 資料來源安全設計</h5>
                                 <p>GSM(Groupe Speciale Mobile Association) 為了因應IOT發展及改良原先SIM推出eSIM ，並推出Consumer及Machine to Machine兩種solution。
                                 SIM 及eSIM 除了RAM、EEPROM擴充 功能上幾近相同，僅僅為由原先插入SIM卡更改為事先焊進手機裡。
                                 ISIM 則更一步縮小為系統晶片的一部分 System of chip(SoC)。</p>
@@ -63,7 +73,7 @@ class Research extends Component {
                                     <p className="font-italic">融合區塊鏈之 NB-IoT SIM/eSIM 資料來源安全設計</p>
                                 </div>
                          
-                                <h4 className='yahei'>遊覽車區塊鏈共享賬本</h4>
+                                <h5 className='yahei'>遊覽車區塊鏈共享賬本</h5>
                                 <div className="text-center">
                                     <ImageZoom image={{src:pic8, alt: 'project_picture', className:'col-lg-7',style: { width: '100%' }}} />
                                     <p className="font-italic">台灣遊覽車區塊鏈化解決方案之架構</p>
@@ -73,13 +83,13 @@ class Research extends Component {
                                     <p className="font-italic">數據收集、整理、上鏈和防篡改審查</p>
                                 </div>
                           
-                                <h4 className='yahei'>醫療區塊鏈隱私保護和權限控管</h4>
+                                <h5 className='yahei'>醫療區塊鏈隱私保護和權限控管</h5>
                                 <div className="text-center">
                                     <ImageZoom image={{src:pic2, alt: 'project_picture', className:'col-lg-7',style: { width: '100%' }}} />
                                     <p className="font-italic">應用於醫療區塊鏈之資料隱私保護與授權管理機制</p>
                                 </div>
                                 
-                                <h4 className='yahei'>智慧水務即時監控系統</h4>
+                                <h5 className='yahei'>智慧水務即時監控系統</h5>
                                 <p>採用NB-IoT無線通訊技術，具低佈建成本、低功耗、長傳輸距離、高通訊穿透力，可深入地下。同時設計智慧感測器聯防機制，降低整體能耗，
                                     延長系統壽命，減少系統維護成本。最後配合AI邊緣運算，提供水資源網路即時監控及預警之智慧服務。</p>
                                 <div className="text-center">
@@ -88,8 +98,8 @@ class Research extends Component {
                                 </div>
                                 
                             </div>
-                            <div className="md-4">
-                                <h2 className="yahei py-2" style={{backgroundColor:"azure"}}>VR / AR</h2>
+                            <div id="2" className="md-4">
+                                <h4 className="yahei py-2" style={{backgroundColor:"#A5DCFF"}}>VR / AR</h4>
                                 <p></p>
                                 <p>目前的研究方向如下</p>
                                 <ul>
@@ -103,8 +113,8 @@ class Research extends Component {
                                     <li>B5G/6G前瞻技術研發</li>
                                 </ul>
                             </div>
-                            <div className="md-4">
-                                <h2 className="yahei py-2" style={{backgroundColor:"azure"}}>5G 邊緣運算</h2>
+                            <div id="3" className="md-4">
+                                <h4 className="yahei py-2" style={{backgroundColor:"#A5DCFF"}}>5G 邊緣運算</h4>
                                 <p></p>
                                 <p>目前的研究方向如下</p>
                                 <ul>

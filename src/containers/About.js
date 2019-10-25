@@ -17,11 +17,11 @@ class About extends Component {
               <div className="mx-3">
                 <div className="mb-5 text-justify">
                   <div className="md-4">
-                    <h2 className='yahei'>團隊介紹</h2>
-                    <p>團隊由廖婉君博士為首，與2位博士生、4位碩士生和3位大學部學生等成員組成。成員遍布台大電機系、台大資工系、台大物聯網研究中心、成大數位生活中心。並同時和國內中華電信、交通部、趨勢科技等多個科研單位和企業，國外Daimler Mercedes Benz、Accenture 有合作。</p>
+                    <h4 className='yahei'>團隊介紹</h4>
+                    <p>本實驗室指導教授為廖婉君教授，主要研究的方向分為三個組別，分別為區塊鏈物聯網組，VR/AR組和5G/6G邊緣運算組。本實驗室與外部企業及科技部皆有合作計畫，朝向尖端通訊發展。</p>
                   </div>
                   <div className="md-4">
-                    <h2 className='yahei'>研究方向</h2>
+                    <h4 className='yahei'>研究方向</h4>
                     <p>目前的研究方向如下</p>
                     <ul>
                       <li>車聯網區塊鏈</li>
