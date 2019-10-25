@@ -4,6 +4,7 @@ import Navbar from "./../components/Navbar"
 import Home from "./Home.js"
 import Contact from "./Contact.js"
 import Project from "./Project.js"
+import Research from "./Research.js"
 import About from "./About.js"
 import News from "./News.js"
 import Advisor from "./Advisor.js"
@@ -17,7 +18,7 @@ class Main extends Component {
       <div>
         <Navbar/>
         <Switch>
-          <Route exact path="/news" component={News} />
+          <Route exact path="/news" component={Research} />
           <Route path="/news/:id?" component={Page} />
           <Route path="/advisor" component={Advisor} />
           <Route path="/project" component={Project} />
