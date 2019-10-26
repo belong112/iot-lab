@@ -7,6 +7,7 @@ class Research extends Component {
             <div className="main-container">
                 <div className='index-container'>
                     <div className="col-lg-12 text-justify yahei">
+                        <h1>研究項目</h1>
                         <ol className="breadcrumb bg-transparent p-1">
                             <li className="breadcrumb-item"><NavLink to="/">首頁</NavLink></li>
                             <li className="breadcrumb-item active">研究項目</li>
