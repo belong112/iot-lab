@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import { NavLink } from "react-router-dom"
+import ggggg from '../img/5g.png'
+import VR from '../img/vr.png'
+import BC from '../img/blockchain.png'
+
 
 class About extends Component {
   render() {
@@ -18,30 +22,67 @@ class About extends Component {
                 <div className="mb-5 text-justify">
                   <div className="md-4">
                     <h4 className='yahei'>團隊介紹</h4>
-                    <p>本實驗室指導教授為廖婉君教授，主要研究的方向分為三個組別，分別為區塊鏈物聯網組，VR/AR組和5G/6G邊緣運算組。本實驗室與外部企業及科技部皆有合作計畫，朝向尖端通訊發展。</p>
+                    <p>&emsp;&emsp;本實驗室指導教授為廖婉君教授，主要研究分為三個組別，分別為區塊鏈物聯網組，
+                      VR/AR 組和 5G/6G 邊緣運算組。各組與外部企業及科技部皆有合作計畫，朝向尖端通訊發展。
+                      本實驗室的研究重點是為當今互聯網中遇到的問題提供解決方案，並使得在未來的應用上更具有影響力。</p>
                   </div>
                   <div className="md-4">
-                    <h4 className='yahei'>研究方向</h4>
-                    <p>目前的研究方向如下</p>
-                    <ul>
-                      <li>車聯網區塊鏈</li>
-                      <li>醫療區塊鏈</li>
-                      <li>區塊鏈創新技術與應用</li>
-                      <li>區塊鏈數據安全和隱私保護、來源識別管理</li>
-                      <li>AI edge for blockchain</li>
-                      <li>5G/6G AI Edge </li>
-                      <li>B5G AR/VR 智慧醫療: 邊緣運算垂直整合應用</li>
-                    </ul>
-                    <p>另有以下產學合作計畫</p>
-                    <ul>
-                      <li>基於區塊鏈的汽車共享和租賃平台</li>
-                      <li>融合區塊鏈技術的 NB-IoT SIM/eSIM卡設計</li>
-                      <li>遊覽車區塊鏈共享賬本</li>
-                      <li>醫療區塊鏈隱私保護和權限控管</li>
-                      <li>基於區塊鏈技術的票據交換</li>
-                      <li>智慧水務即時監控系統</li>
-                    </ul>
-                  </div>                  
+                    <h4 className='yahei'>研究項目</h4>
+                    <div className='d-flex row'>
+                      <div className='col-lg-4 pb-3 text-center'>
+                        <NavLink to='/research/bc'>
+                          <div className='backgroundcircle m-auto'>
+                            <img src={BC} alt='icon'/>
+                          </div>
+                          <div className='pt-3'>
+                            <p className='yahei'>區塊鏈及物聯網之應用</p>
+                            <div style={{fontSize:"0.9rem"}}>
+                              <span>智慧水務即時監控系統</span>
+                              <br/>
+                              <span>醫療區塊鏈隱私保護和權限控管</span>
+                              <br/>
+                              <span>遊覽車區塊鏈共享賬本</span>
+                              <br/>
+                              <span>融合區塊鏈之 NB-IoT SIM/eSIM 資料來源安全設計</span>
+                              <br/>
+                              <span>基於區塊鏈的汽車共享和租賃平台</span>
+                              <br/>
+                            </div>
+                          </div>
+                        </NavLink>
+                      </div>
+                      <div className='col-lg-4 pb-3 text-center'>
+                        <NavLink to='/research/vr'>
+                          <div className='backgroundcircle m-auto'>
+                            <img src={VR} alt='icon'/>
+                          </div>
+                          <div className='pt-3'>
+                            <p className='yahei'>虛擬實境和擴增實境</p>
+                            <div style={{fontSize:"0.9rem"}}>
+                              <span>B5G/6G前瞻技術研發</span>
+                              <br/>
+                            </div>
+                          </div>
+                        </NavLink>
+                      </div>
+                      <div className='col-lg-4 pb-3 text-center'>
+                        <NavLink to='/research/ec'>
+                          <div className='backgroundcircle m-auto'>
+                            <img src={ggggg} alt='icon'/>
+                          </div>
+                          <div className='pt-3'>
+                            <p className='yahei'>5G邊緣運算</p>
+                            <div style={{fontSize:"0.9rem"}}>
+                              <span>應用深度強化學習於邊緣運算之計算卸載</span>
+                              <br/>
+                              <span>行動邊緣運算的服務佈建</span>
+                              <br/>
+                            </div>
+                          </div>
+                        </NavLink>
+                      </div>
+                    </div>
+                  </div>                                    
                 </div>
               </div>  
             </div>          

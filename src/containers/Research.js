@@ -23,6 +23,7 @@ class Research extends Component {
                                     <li className="my_link"><NavLink to="/research/vr"><span>VR/AR</span></NavLink></li>
                                     <li className='my_link'><NavLink to="/research/ec"><span>5G邊緣運算</span></NavLink></li>
                                 </ul>
+                                <p style={{fontSize:'0.9rem'}}>點選以查看更多資訊</p>
                             </div>
                         </div>
                     </div>

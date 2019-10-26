@@ -1,2 +1,3 @@
-如欲編輯/更新網頁，請開啟 ./src/data/data.js 檔案更新資料
-其他地方皆無須開啟
+請先至 github  belong112/iot-lab  clone 至自己的電腦
+做完調整後於terminal打 $ npm run build
+此時他會將目前的網站打包在build的資料夾內, 之後只要將build資料夾deploy至你想要的網域即可
