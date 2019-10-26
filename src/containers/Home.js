@@ -16,7 +16,7 @@ class Home extends Component {
                 <div className="col-lg container">
                   <h2 className="yahei"><i className="fas fa-user-friends"></i> 執行計畫</h2>
                   <ul className="text-justify">
-                  	<li>5g edge computing</li>
+                  	<li>5G edge computing</li>
                   	<li>VR/AR wirless lightweight and interactivity.</li>
                   	<li>Blockchain Trust framework for IoT and for 5G/6G</li>
                   </ul>

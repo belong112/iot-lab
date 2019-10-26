@@ -203,6 +203,12 @@ td{
 	text-decoration: underline;
 	font-weight: bold;
 }
+.dropdown:hover>.dropdown-menu{
+		display: block;
+}
+.dropdown:active>.dropdown-menu{
+	display: block;
+}
 
 @media screen and (max-width: 480px) {
   .first-container{

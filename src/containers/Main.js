@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import Footer from "./../components/Footer"
 import Navbar from "./../components/Navbar"
 import Home from "./Home.js"
+import Edge from './Edgecomputing.js'
+import VRAR from './VRAR.js'
+import BlockChain from './BlockChain.js'
 import Contact from "./Contact.js"
 import Project from "./Project.js"
 import Research from "./Research.js"
@@ -19,7 +22,10 @@ class Main extends Component {
         <Navbar/>
         <Switch>
           <Route exact path="/news" component={News} />
-          <Route path="/research" component={Research} />
+          <Route exact path="/research" component={Research} />
+          <Route path="/research/ec" component={Edge} />
+          <Route path="/research/vr" component={VRAR} />
+          <Route path="/research/bc" component={BlockChain} />
           <Route path="/news/:id?" component={Page} />
           <Route path="/advisor" component={Advisor} />
           <Route path="/project" component={Project} />

@@ -7,6 +7,9 @@ class Navbar extends Component {
     $('.nav-link').on('click', function(){
       $('.navbar-collapse').removeClass('show');
     });
+    $('.dropdown-item').on('click', function(){
+      $('.navbar-collapse').removeClass('show');
+    });
   }
 
   render() {
@@ -29,8 +32,15 @@ class Navbar extends Component {
                         <li className="nav-item active"> 
                           <NavLink onClick={this.close} className="nav-link" to="/about">關於我們</NavLink>
                         </li> 
-                        <li className="nav-item active"> 
-                          <NavLink className="nav-link" to="/research">研究項目</NavLink>
+                        <li className="nav-item dropdown">                               
+                            <NavLink className="nav-link active dropdown-toggle" to="/research" id="navbarDropdown">
+                              研究項目
+                            </NavLink>
+                            <div className="dropdown-menu">
+                              <NavLink to="/research/bc"><span className='dropdown-item'>區塊鏈/物聯網</span></NavLink>
+                              <NavLink to="/research/vr"><span className='dropdown-item'>VR/AR</span></NavLink>
+                              <NavLink to="/research/ec"><span className='dropdown-item'>5G邊緣運算</span></NavLink>
+                            </div>
                         </li>
                         <li className="nav-item active">
                             <NavLink className="nav-link" to="/advisor">指導教授</NavLink>

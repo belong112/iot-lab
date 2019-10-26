@@ -9,7 +9,7 @@ class News extends Component {
       return(
         <div className="mb-3 pb-2 d-table border-bottom border-secondary">
           <div className="leftpart">
-            <img src={item.image || testimg}  alt="picture" />
+            <img src={item.image || testimg}  alt="logo" />
           </div>
           <div className="rightpart">
             <h4>{item.date || "null"}</h4>

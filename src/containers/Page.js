@@ -25,7 +25,7 @@ class Page extends Component {
                   <h3>{data.posts[id].title || 'N/A'}</h3>
                   <p>{data.posts[id].text || 'N/A'}</p>
                   <div className='text-center'>
-                    <img src={data.posts[id].image || img1} className="img-fluid mx-auto d-block" width="70%" alt="picture" />
+                    <img src={data.posts[id].image || img1} className="img-fluid mx-auto d-block" width="70%" alt="news" />
                     <p className="font-italic">藍藍路</p>
                   </div>
                 </div>                
