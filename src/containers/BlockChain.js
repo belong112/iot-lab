@@ -19,18 +19,17 @@ class BlockChain extends Component {
             <div className="main-container">
                 <div className='index-container'>
                     <div className="col-lg-12 text-justify yahei">
-                        <h1>研究項目</h1>
+                        <h1>區塊鏈 / 物聯網 (IoT)</h1>
                         <ol className="breadcrumb bg-transparent p-1">
                             <li className="breadcrumb-item"><NavLink to="/">首頁</NavLink></li>
                             <li className="breadcrumb-item"><NavLink to="/research">研究項目</NavLink></li>
-                            <li className="breadcrumb-item active">區塊鏈 / IoT</li>
+                            <li className="breadcrumb-item active">區塊鏈和物聯網</li>
                         </ol>
                         <hr />
                     </div>
                     <div className="mx-3">
                         <div className="mb-5 text-justify">
                             <div id="1" className="md-4">
-                                <h4 className="yahei py-2">區塊鏈 / IoT</h4>
                                 <p>本組別目前由2位博士生、4位碩士生和3位大學部學生組成。成員遍布台大電機系、台大資工系和台大物聯網中心。而目前的研究方向如下</p>
                                 <ul>
                                     <li>車聯網區塊鏈</li>

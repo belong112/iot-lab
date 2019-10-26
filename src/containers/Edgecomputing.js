@@ -21,8 +21,7 @@ class Edgecomputing extends Component {
                     </div>
                     <div className="mx-3">
                         <div className="mb-5 text-justify">
-                            <div className="md-4">
-                                <h2 className="yahei py-2" >5G 邊緣運算</h2>
+                            <div className="md-4">                                
                                 <p></p>
                                 <p>目前的研究方向如下</p>
                                 <ul>
