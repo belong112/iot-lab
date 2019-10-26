@@ -86,33 +86,8 @@ class BlockChain extends Component {
                                 <div className="text-center">
                                     <ImageZoom image={{src:pic7, alt: 'project_picture', className:'col-lg-7',style: { width: '100%' }}} />
                                     <p className="font-italic">應用於醫療區塊鏈之資料隱私保護與授權管理機制</p>
-                                </div>
-                                
-                            </div>
-                            <div id="2" className="md-4">
-                                <h4 className="yahei py-2" style={{backgroundColor:"#A5DCFF"}}>VR / AR</h4>
-                                <p></p>
-                                <p>目前的研究方向如下</p>
-                                <ul>
-                                    <li>VR串流於5G網路</li>
-                                    <li>VR/AR、5G技術與醫療的垂直整合</li>
-                                    <li>VR串流於社交網路之優化</li>
-                                    <li>360°影片防暈眩之串流技術</li>                                    
-                                </ul>
-                                <p>相關的合作計畫如下</p>
-                                <ul>
-                                    <li>B5G/6G前瞻技術研發</li>
-                                </ul>
-                            </div>
-                            <div id="3" className="md-4">
-                                <h4 className="yahei py-2" style={{backgroundColor:"#A5DCFF"}}>5G 邊緣運算</h4>
-                                <p></p>
-                                <p>目前的研究方向如下</p>
-                                <ul>
-                                    <li>應用深度強化學習於邊緣運算之計算卸載</li>
-                                    <li>行動邊緣運算的服務佈建</li>                   
-                                </ul>                                
-                            </div>
+                                </div>                                
+                            </div>                           
                         </div>
                     </div>
                 </div>
