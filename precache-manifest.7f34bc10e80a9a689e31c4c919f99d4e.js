@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1051574f035a8d8d78f340c72fe7388a",
+    "revision": "1d5a8f7943a758a48c94358afe7644ca",
     "url": "/iot-lab/index.html"
   },
   {
-    "revision": "ff8f33b09a520b0aec46",
-    "url": "/iot-lab/static/css/main.8c00763d.chunk.css"
+    "revision": "a35611397f8815a35501",
+    "url": "/iot-lab/static/css/main.574714a9.chunk.css"
   },
   {
-    "revision": "65e2b020a104ada7c82b",
-    "url": "/iot-lab/static/js/2.69bd17df.chunk.js"
+    "revision": "237af0c37fbff50d7469",
+    "url": "/iot-lab/static/js/2.abba1373.chunk.js"
   },
   {
-    "revision": "ff8f33b09a520b0aec46",
-    "url": "/iot-lab/static/js/main.2e352487.chunk.js"
+    "revision": "a35611397f8815a35501",
+    "url": "/iot-lab/static/js/main.f1d30127.chunk.js"
   },
   {
     "revision": "cfd9af4330f965d3dd19",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "713d1a799dfeaf33e9a1c1b698abd8b6",
     "url": "/iot-lab/static/media/bg1.713d1a79.png"
+  },
+  {
+    "revision": "c0d577c023254fa79140bcd9c60822aa",
+    "url": "/iot-lab/static/media/blockchain.c0d577c0.png"
   },
   {
     "revision": "212e8f96cea7a8823a39601273c81743",
