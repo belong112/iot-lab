@@ -31,7 +31,7 @@ class BlockChain extends Component {
                         <div className="mb-5 text-justify">
                             <div id="1" className="md-4">
                                 <p>本組別目前由2位博士生、4位碩士生和3位大學部學生組成。成員遍布台大電機系、台大資工系和台大物聯網中心。而目前的研究方向如下</p>
-                                <ul>
+                                <ul className='yahei'>
                                     <li>車聯網區塊鏈</li>
                                     <li>醫療區塊鏈</li>
                                     <li>區塊鏈創新技術與應用</li>
