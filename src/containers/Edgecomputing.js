@@ -26,7 +26,8 @@ class Edgecomputing extends Component {
                                 <p>目前的研究方向如下</p>
                                 <ul>
                                     <li>
-                                        <h5 className='yahei'>應用深度強化學習於邊緣運算之計算卸載</h5> 
+                                        <h5 className='yahei'>深度強化學習於行動邊緣運算之分流與資源分配</h5> 
+                                        <p>&emsp;&emsp;多用戶環境下，利用深度強化學習共同解決頻寬分配和運算伺服器計算資源分配的問題。滿足用戶需求前提下，最佳化長期的效能如延遲、能耗等。</p>
                                     </li>    
                                     <li>
                                         <h5 className='yahei'>行動邊緣運算的服務佈建</h5>
