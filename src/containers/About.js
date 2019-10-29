@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom"
 import ggggg from '../img/5g.png'
 import VR from '../img/vr.png'
 import BC from '../img/blockchain.png'
-
+import iot from "../img/iot.png"
 
 class About extends Component {
   render() {
@@ -29,43 +29,7 @@ class About extends Component {
                   <div className="md-4">
                     <h4 className='yahei'>研究項目</h4>
                     <div className='d-flex row'>
-                      <div className='col-lg-4 pb-3 text-center'>
-                        <NavLink to='/research/bc'>
-                          <div className='backgroundcircle m-auto'>
-                            <img src={BC} alt='icon'/>
-                          </div>
-                          <div className='pt-3'>
-                            <p className='yahei'>區塊鏈及物聯網之應用</p>
-                            <div style={{fontSize:"0.9rem"}}>
-                              <span>智慧水務即時監控系統</span>
-                              <br/>
-                              <span>醫療區塊鏈隱私保護和權限控管</span>
-                              <br/>
-                              <span>遊覽車區塊鏈共享賬本</span>
-                              <br/>
-                              <span>融合區塊鏈之 NB-IoT SIM/eSIM 資料來源安全設計</span>
-                              <br/>
-                              <span>基於區塊鏈的汽車共享和租賃平台</span>
-                              <br/>
-                            </div>
-                          </div>
-                        </NavLink>
-                      </div>
-                      <div className='col-lg-4 pb-3 text-center'>
-                        <NavLink to='/research/vr'>
-                          <div className='backgroundcircle m-auto'>
-                            <img src={VR} alt='icon'/>
-                          </div>
-                          <div className='pt-3'>
-                            <p className='yahei'>虛擬實境和擴增實境</p>
-                            <div style={{fontSize:"0.9rem"}}>
-                              <span>B5G/6G前瞻技術研發</span>
-                              <br/>
-                            </div>
-                          </div>
-                        </NavLink>
-                      </div>
-                      <div className='col-lg-4 pb-3 text-center'>
+                      <div className='col-lg-3 pb-3 text-center'>
                         <NavLink to='/research/ec'>
                           <div className='backgroundcircle m-auto'>
                             <img src={ggggg} alt='icon'/>
@@ -80,7 +44,56 @@ class About extends Component {
                             </div>
                           </div>
                         </NavLink>
+                      </div> 
+                      <div className='col-lg-3 pb-3 text-center'>
+                        <NavLink to='/research/vr'>
+                          <div className='backgroundcircle m-auto'>
+                            <img src={VR} alt='icon'/>
+                          </div>
+                          <div className='pt-3'>
+                            <p className='yahei'>虛擬實境和擴增實境</p>
+                            <div style={{fontSize:"0.9rem"}}>
+                              <span>B5G/6G前瞻技術研發</span>
+                              <br/>
+                            </div>
+                          </div>
+                        </NavLink>
                       </div>
+                      <div className='col-lg-3 pb-3 text-center'>
+                        <NavLink to='/research/bc'>
+                          <div className='backgroundcircle m-auto'>
+                            <img src={BC} alt='icon'/>
+                          </div>
+                          <div className='pt-3'>
+                            <p className='yahei'>區塊鏈</p>
+                            <div style={{fontSize:"0.9rem"}}>
+                              <span>醫療區塊鏈隱私保護和權限控管</span>
+                              <br/>
+                              <span>遊覽車區塊鏈共享賬本</span>
+                              <br/>
+                              <span>融合區塊鏈之 NB-IoT SIM/eSIM 資料來源安全設計</span>
+                              <br/>
+                              <span>基於區塊鏈的汽車共享和租賃平台</span>
+                              <br/>
+                            </div>
+                          </div>
+                        </NavLink>
+                      </div>
+                     
+                      <div className='col-lg-3 pb-3 text-center'>
+                        <NavLink to='/research/bc'>
+                          <div className='backgroundcircle m-auto'>
+                            <img src={iot} alt='icon'/>
+                          </div>
+                          <div className='pt-3'>
+                            <p className='yahei'>智慧物聯網</p>
+                            <div style={{fontSize:"0.9rem"}}>
+                              <span>智慧水務即時監控系統</span>
+                              <br/>
+                            </div>
+                          </div>
+                        </NavLink>
+                      </div>                      
                     </div>
                   </div>                                    
                 </div>
