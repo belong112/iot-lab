@@ -6,7 +6,7 @@
   "dependencies": {
     "@material-ui/core": "^4.3.0",
     "gh-pages": "^2.0.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-medium-image-zoom": "^3.1.2",
